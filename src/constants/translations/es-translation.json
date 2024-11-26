@@ -6,7 +6,7 @@
         "title":"Acerca de Mí",
         "text": "Soy un desarrollador full stack dedicado y versátil con una pasión por crear aplicaciones web eficientes y fáciles de usar..."
     },
-    "experiences": [
+    "experience": [
         {
             "year": "2022 - Actualmente",
             "role": "Desarrollador Full Stack",

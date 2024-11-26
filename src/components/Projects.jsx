@@ -1,4 +1,3 @@
-//import { PROJECTS } from "../constants"
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -6,7 +5,6 @@ const Projects = () => {
 
     const { t } = useTranslation();
     const projects = t("projects", { returnObjects: true });
-    console.log('console log projects:---------', projects);
     return (
 
         <div className="border-b border-neutral-900 pb-4">

@@ -1,0 +1,46 @@
+{
+    "hero": {
+        "content": "Soy un desarrollador full stack apasionado por crear aplicaciones web robustas y escalables..."
+    },
+    "about": {
+        "title":"Acerca de Mí",
+        "text": "Soy un desarrollador full stack dedicado y versátil con una pasión por crear aplicaciones web eficientes y fáciles de usar..."
+    },
+    "experiences": [
+        {
+            "year": "2022 - Actualmente",
+            "role": "Desarrollador Full Stack",
+            "company": "SEMS UDG",
+            "description": "Lideré un equipo en el desarrollo y mantenimiento de aplicaciones web utilizando JavaScript, React.js y Node.js...",
+            "technologies": ["JavaScript", "React.JS", "Express.JS", "Sequelize", "mySQL", "Material-UI", "Bootstrap"]
+        },
+        {
+            "year": "2021 - 2022",
+            "role": "Servicio social",
+            "company": "SEMS UDG",
+            "description": "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
+            "technologies": ["JavaScript", "React.JS", "HTML", "CSS", "mySQL", "Bootstrap"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Calidad SEMS",
+            "description":"Una aplicación web completamente funcional hecha para la red de escuelas UDG. https://calidad.sems.udg.mx/Creditos",
+            "technologies": ["JavaScript", "React.JS", "Express.JS", "Sequelize", "mySQL", "Material-UI", "Bootstrap"],
+            "image":"/assets/projects/Calidad SEMS Credits.png"
+
+          },
+        {
+            "title": "Sitio web de comercio electrónico",
+            "description": "Un sitio web de comercio electrónico completamente funcional con características como listado de productos, carrito de compras y autenticación de usuarios.",
+            "technologies": ["JavaScript", "React.JS", "Express.JS", "Sequelize", "mySQL", "Material-UI", "Bootstrap"],
+            "image":"../../assets/projects/project-1.jpg"
+        }
+    ],
+    "contact": {
+        "title": "Contacto",
+        "address": "Guadalajara Jalisco, México",
+        "phone": "+52 33-1041-9236",
+        "email": "emmanuel.arana.gutierrez@gmail.com"
+    }
+}

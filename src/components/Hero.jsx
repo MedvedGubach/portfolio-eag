@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/EAGProfile.jpg";
 import { motion } from "motion/react"
+import { useTranslation } from "react-i18next";
 
 
 const container = (delay) => ({
@@ -9,6 +10,11 @@ const container = (delay) => ({
 })
 
 const Hero = () => {
+
+
+  const { t } = useTranslation();
+
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -35,7 +41,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter">
-              {HERO_CONTENT}
+              {t("hero.content")}
             </motion.p>
           </div>
         </div>

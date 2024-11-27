@@ -1,6 +1,5 @@
-import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/EAGProfile.jpg";
-import { motion } from "motion/react"
+import profilePic from "../assets/EAGProfileBW1.jpg";
+import { motion, AnimatePresence } from "motion/react"
 import { useTranslation } from "react-i18next";
 
 
@@ -11,8 +10,7 @@ const container = (delay) => ({
 
 const Hero = () => {
 
-
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
 
   return (
@@ -33,9 +31,23 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="bg-gradient-to-r from-yellow-300 via-cyan-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-              Full Stack Developer
+              {t("hero.role")}
             </motion.span>
 
+            {/* 
+            <AnimatePresence mode="wait">
+              <motion.p
+                key={i18n.language}
+                variants={container(1)}
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0, }}
+                exit={{ opacity: 0, x: -20 }}
+                transition={{ duration: 0.5 }}
+                className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                {t("hero.content")}
+              </motion.p>
+            </AnimatePresence>
+ */}
             <motion.p
               variants={container(1)}
               initial="hidden"
@@ -43,6 +55,7 @@ const Hero = () => {
               className="my-2 max-w-xl py-6 font-light tracking-tighter">
               {t("hero.content")}
             </motion.p>
+
           </div>
         </div>
 
@@ -51,8 +64,8 @@ const Hero = () => {
           <motion.img
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{duration: 1, delay: 1.2}}
-            src={profilePic} alt="Emmanuel Arana" />
+            transition={{ duration: 1, delay: 1.2 }}
+            src={profilePic} alt="Emmanuel Arana" className="rounded-2xl" />
         </div>
       </div>
     </div>

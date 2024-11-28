@@ -15,10 +15,10 @@ const Navbar = () => {
 
       <div className="m-8 flex item-center justify-center gap-4 text-2xl">
         <SwitchLanguage />
-        <FaLinkedin className="hover:text-sky-300 transition duration-300" />
-        <FaGithub className="hover:text-black transition duration-300"/>
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/emmanuel-arana-gutierrez-32013429b/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="hover:text-sky-300 transition duration-300" /></a>
+        <a href="https://github.com/MedvedGubach" target="_blank" rel="noopener noreferrer"><FaGithub className="hover:text-black transition duration-300" /></a>
+        {/* <FaSquareXTwitter />
+        <FaInstagram /> */}
       </div>
     </nav>
   );

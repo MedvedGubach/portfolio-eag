@@ -1,11 +1,11 @@
 {
     "hero": {
-        "content": "Soy un desarrollador full stack apasionado por crear aplicaciones web robustas y escalables...",
+        "content": "Soy un apasionado desarrollador full stack con una habilidad especial para crear aplicaciones web robustas, intuitivas y amigables con el usuario. Con 3 años de experiencia práctica y una licenciatura en Ingeniería en Ciencias Computacionales, he perfeccionado mis habilidades utilizando el stack tecnológico SERN; Sequelize, Express.JS, React.JS y Node.JS así como otras tecnologías relacionadas al desarrollo web cómo: Bootstrap, mySQL, TypeScript, Material-UI y Tailwind CSS. Mi objetivo es aprovechar mi experiencia para crear soluciones innovadoras que impulsen el crecimiento empresarial y ofrezcan experiencias de usuario excepcionales.",
         "role": "Desarrollador Full Stack"
     },
     "about": {
         "title": "Acerca de Mí",
-        "text": "Soy un desarrollador full stack dedicado y versátil con una pasión por crear aplicaciones web eficientes y fáciles de usar..."
+        "text": "Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. Estudié la carrera Ingeniería en Ciencias Computacionales en el CUTonalá y me gradué logrando la licenciatura. Con 3 años de experiencia profesional, he trabajado con variedad de tecnologías de desarrollo web. Mi viaje en el desarrollo web comenzó de forma inusual interesándome en el hardware computadora, lo que me llevó a estudiar mi susodicha carrera. Al ingresar a la carrera me lleve la sorpresa de que no se trataba de nada relacionado al hardware, yo en ese entonces no tenía idea de programación así que me costó un poco integrar los nuevos conocimientos. Lo que me hizo apasionarme por la programación es la capacidad de crear soluciones para un problema desde cero, especialmente el diseño y desarrollo de aplicaciones. Me desenvuelvo en entornos colaborativos y disfruto resolviendo problemas complejos para ofrecer soluciones de alta calidad. Además de la programación soy gamer 🖥️🎮, un foodie, toco la guitarra eléctrica 🎸, leo libros y soy un metalhead 🤘 y usualmente tomo cursos en Udemy ya sea para mantenerme al tanto con las nuevas tecnologías o pulir mis conocimientos."
     },
     "technologies": {
         "main": "Tecnologías Principales",
@@ -16,18 +16,22 @@
             "year": "2022 - Actualmente",
             "role": "Desarrollador Full Stack",
             "company": "SEMS UDG",
-            "description": "Lideré un equipo en el desarrollo y mantenimiento de aplicaciones web utilizando JavaScript, React.js y Node.js...",
+            "description": "Al aprender rápidamente el stack tecnológico utilizado en el sistema y dando buenos resultados con el desarrollo de mis tareas asignadas, fui contratado cómo empleado en la compañía. Continué con mi aprendizaje hasta el punto de ser capaz de desarrollar módulos de aplicación web completamente funcionales para el sistema tanto por la parte front end cómo el back end. Estos nuevos módulos serían integrados exitosamente y puestos en uso, así como la automatización de tareas del sistema mediante el uso de rutinas o cron.",
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
+                "JavaScript",
+                "React.JS",
+                "Express.JS",
+                "Sequelize",
+                "mySQL",
+                "Material-UI",
+                "Bootstrap"
             ]
         },
         {
             "year": "2021 - 2022",
             "role": "Servicio social",
             "company": "SEMS UDG",
-            "description": "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
+            "description": "Inicie mi carrera en esta empresa cómo prestador de servicio social por parte de mi carrera universitaria. Comencé integrándome conociendo el proyecto, el modo de trabajo del resto de los ingenieros y aprendiendo a usar las tecnologías front end que en ese entonces eran totalmente nuevas para mi mediante el desarrollo de interfaces de usuario que requerían ser integradas en los nuevos módulos del sistema.",
             "technologies": [
                 "JavaScript",
                 "React.JS",
@@ -41,7 +45,7 @@
     "projects": [
         {
             "title": "Calidad SEMS",
-            "description": "Una aplicación web completamente funcional hecha para la red de escuelas UDG. https://calidad.sems.udg.mx/Creditos",
+            "description": "Una aplicación web en la que nosotros los administradores del sistema, docentes, alumnos, personal académico y administrativo de la red de preparatorias UDG pueden realizar tareas escolares automatizadas. https://calidad.sems.udg.mx/Creditos",
             "technologies": [
                 "JavaScript",
                 "React.JS",
@@ -51,7 +55,7 @@
                 "Material-UI",
                 "Bootstrap"
             ],
-            "image": "/assets/projects/Calidad SEMS Credits.png"
+            "image": "/src/assets/projects/Calidad SEMS Credits.png"
         },
         {
             "title": "Sitio web de comercio electrónico",

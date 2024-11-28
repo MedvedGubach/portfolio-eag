@@ -1,11 +1,11 @@
 {
     "hero": {
-        "content": "I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+        "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
         "role": "Full Stack Developer"
     },
     "about": {
         "title": "About Me",
-        "text": "I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects."
+        "text": "I am a dedicated and versatile full stack developer with a passion for creating efficient and easy-to-use web applications. I studied Computer Science Engineering at CUTonalá and graduated with a bachelor's degree. With 3 years of professional experience, I have worked with a variety of web development technologies. My journey in web development began in an unusual way by becoming interested in computer hardware, which led me to study my aforementioned degree. When I entered the program I was surprised that it was not about anything related to hardware, at that time I had no idea about programming so it took me a little while to integrate the new knowledge. What made me passionate about programming is the ability to create solutions to a problem from scratch, especially the design and development of applications. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. In addition to programming, I am a gamer 🖥️🎮, a foodie, I play the electric guitar 🎸, I read books and I am a metalhead 🤘 and I usually take courses on Udemy either to keep up with new technologies or polish my knowledge."
     },
     "technologies": {
         "main": "Main Technologies",
@@ -16,7 +16,7 @@
             "year": "2022 - Present",
             "role": "Full Stack Developer",
             "company": "SEMS UDG",
-            "description": "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases...",
+            "description": "By quickly learning the technological stack used in the system and giving good results with the development of my assigned tasks, I was hired as an employee in the company. I continued with my learning to the point of being able to develop fully functional web application modules for the system both on the front end and the back end. These new modules would be successfully integrated and put into use, as well as the automation of system tasks through the use of routines or cron.",
             "technologies": [
                 "JavaScript",
                 "React.JS",
@@ -31,7 +31,7 @@
             "year": "2021 - 2022",
             "role": "Social Service Worker",
             "company": "SEMS UDG",
-            "description": "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
+            "description": "I started my career in this company as a social service provider for part of my university career. I began to integrate by getting to know the project, the way the rest of the engineers worked and learning to use front end technologies that at that time were totally new to me through the development of user interfaces that needed to be integrated into the new system modules.",
             "technologies": [
                 "JavaScript",
                 "React.JS",
@@ -45,7 +45,7 @@
     "projects": [
         {
             "title": "Calidad SEMS",
-            "description": "A fully functional web app made for the UDG school network. https://calidad.sems.udg.mx/Creditos",
+            "description": "A web application in which we the system administrators, teachers, students, academic and administrative staff of the UDG high school network can perform automated school related tasks. https://calidad.sems.udg.mx/Creditos",
             "technologies": [
                 "JavaScript",
                 "React.JS",

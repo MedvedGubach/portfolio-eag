@@ -6,22 +6,21 @@ const SwitchLanguage = () => {
 
     const { i18n } = useTranslation();
 
-    // Función para alternar entre inglés y español
-    const toggleLanguage = () => {
+    const toggleLanguage = (e) => {
         const newLanguage = i18n.language === "en" ? "es" : "en";
         i18n.changeLanguage(newLanguage);
+        console.log(e.target.value)
+
     };
 
     return (
         <div className="flex items-center space-x-4">
-            {/* Etiqueta para el idioma */}
             <span className="text-sm font-medium text-gray-600 dark:text-gray-300">
                 {i18n.language === "en" ? "English" : "Español"}
             </span>
 
-            {/* Switch con banderas */}
             <button
-                onClick={toggleLanguage}
+                onClick={(e) => { toggleLanguage(e) }}
                 className={`relative inline-flex h-6 w-12 items-center rounded-full focus:outline-none`}
                 style={{
                     backgroundImage: `url(${i18n.language === "en"

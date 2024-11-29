@@ -1,11 +1,10 @@
 import aboutImg from "../assets/about.jpeg";
-import { ABOUT_TEXT } from "../constants";
-import { motion } from "motion/react"
+import { motion, AnimatePresence } from "motion/react"
 import { useTranslation } from "react-i18next";
 
 const About = () => {
 
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
 
@@ -26,15 +25,20 @@ const About = () => {
           </div>
         </motion.div>
 
-        <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{t("about.text")}</p>
-          </div>
-        </motion.div>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={i18n.language}
+
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            exit={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-start">
+              <p className="my-2 max-w-xl py-6">{t("about.text")}</p>
+            </div>
+          </motion.div>
+        </AnimatePresence>
 
       </div>
     </div>

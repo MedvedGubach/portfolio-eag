@@ -4,7 +4,7 @@ import { SiSequelize } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa"
 import { DiMysql } from "react-icons/di";
-import { motion } from "motion/react"
+import { motion, AnimatePresence } from "motion/react"
 import { useTranslation } from "react-i18next";
 
 const iconVariants = (duration) => ({
@@ -22,16 +22,21 @@ const iconVariants = (duration) => ({
 });
 
 const Technologies = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+
     return (
         <div className="border-b border-neutral-800 pb-24">
-            <motion.h1
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 1.5 }}
-                className="my-20 text-center text-4xl">{t("technologies.main")}
-            </motion.h1>
-            
+            <AnimatePresence mode="wait">
+                <motion.h1
+                    key={i18n.language}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: -80 }}
+                    exit={{ opacity: 0, y: -80 }}
+                    transition={{ duration: 1 }}
+                    className="my-20 text-center text-4xl">{t("technologies.main")}
+                </motion.h1>
+            </AnimatePresence>
+
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -85,7 +90,7 @@ const Technologies = () => {
                     <DiMysql className="text-7xl text-sky-700" />
                 </motion.div>
             </motion.div>
-        </div>
+        </div >
     )
 }
 

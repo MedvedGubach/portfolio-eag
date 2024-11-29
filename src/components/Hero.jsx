@@ -11,7 +11,7 @@ const container = (delay) => ({
 const Hero = () => {
 
   const { t, i18n } = useTranslation();
-
+  console.log("t y i18 console log", t, i18n);
 
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -34,20 +34,21 @@ const Hero = () => {
               {t("hero.role")}
             </motion.span>
 
-            {/* 
+
             <AnimatePresence mode="wait">
               <motion.p
                 key={i18n.language}
-                variants={container(1)}
+                //variants={container(1)}
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0, }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.5 }}
+                exit={{ opacity: 0, x: -100 }}
+                transition={{ duration: 0.5, }}
                 className="my-2 max-w-xl py-6 font-light tracking-tighter">
                 {t("hero.content")}
               </motion.p>
             </AnimatePresence>
- */}
+
+            {/* 
             <motion.p
               variants={container(1)}
               initial="hidden"
@@ -55,6 +56,7 @@ const Hero = () => {
               className="my-2 max-w-xl py-6 font-light tracking-tighter">
               {t("hero.content")}
             </motion.p>
+            */}
 
           </div>
         </div>
@@ -68,7 +70,7 @@ const Hero = () => {
             src={profilePic} alt="Emmanuel Arana" className="rounded-2xl" />
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

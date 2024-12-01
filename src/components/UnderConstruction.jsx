@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 import { default as I1 } from "../assets/UnderConstruction/Illustration1.svg";
 import { default as I2 } from "../assets/UnderConstruction/Illustration2.svg";
@@ -7,6 +8,7 @@ import { default as I3 } from "../assets/UnderConstruction/Illustration3.svg";
 import { default as I4 } from "../assets/UnderConstruction/Illustration4.svg";
 
 const Illustration = () => {
+  const { t, i18n } = useTranslation();
   const SLOW = 44;
   const AVG = 33;
   const FAST = 22;
@@ -32,7 +34,18 @@ const Illustration = () => {
 
   return (
     <Fragment>
-      <h1 className="my-20 text-center text-4xl">More Coming Soon...</h1>
+      <AnimatePresence mode="wait">
+        <motion.h1
+          key={i18n.language}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          exit={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+          className="my-20 text-center text-4xl"
+        >
+          {t("constructon-text")}
+        </motion.h1>
+      </AnimatePresence>
 
       <div style={styles.illustrationOuter}>
         <motion.div

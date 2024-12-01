@@ -1,77 +1,77 @@
 {
-    "hero": {
-        "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
-        "role": "Full Stack Developer"
+  "hero": {
+    "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+    "role": "Full Stack Developer"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "I am a full-stack developer with 3 years of experience, passionate about creating efficient, user-centered web applications. I hold a degree in Computer Science Engineering from CUTonalá, where I discovered my interest in programming despite initially focusing on hardware. This shift sparked my fascination with solving problems and designing solutions from scratch.I stand out for my versatility and ability to thrive in collaborative environments, delivering high-quality solutions with modern technologies. Outside of programming, I enjoy gaming, metal music (I also play electric guitar 🎸), reading, and continuous learning, particularly through platforms like Udemy to stay updated on the latest technologies."
+  },
+  "technologies": {
+    "main": "Main Technologies",
+    "familiar": "Technologies I'm Familiar With"
+  },
+  "main-title-experience": "Experience",
+  "experience": [
+    {
+      "year": "2022 - Present",
+      "role": "Full Stack Developer",
+      "company": "SEMS UDG",
+      "description": "By quickly learning the technological stack used in the system and giving good results with the development of my assigned tasks, I was hired as an employee in the company. I continued with my learning to the point of being able to develop fully functional web application modules for the system both on the front end and the back end. These new modules would be successfully integrated and put into use, as well as the automation of system tasks through the use of routines or cron.",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "Express.JS",
+        "Sequelize",
+        "Node.JS",
+        "mySQL",
+        "MUI",
+        "Bootstrap"
+      ]
     },
-    "about": {
-        "title": "About Me",
-        "text": "I am a dedicated and versatile full stack developer with a passion for creating efficient and easy-to-use web applications. I studied Computer Science Engineering at CUTonalá and graduated with a bachelor's degree. With 3 years of professional experience, I have worked with a variety of web development technologies. My journey in web development began in an unusual way by becoming interested in computer hardware, which led me to study my aforementioned degree. When I entered the program I was surprised that it was not about anything related to hardware, at that time I had no idea about programming so it took me a little while to integrate the new knowledge. What made me passionate about programming is the ability to create solutions to a problem from scratch, especially the design and development of applications. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. In addition to programming, I am a gamer 🖥️🎮, a foodie, I play the electric guitar 🎸, I read books and I am a metalhead 🤘 and I usually take courses on Udemy either to keep up with new technologies or polish my knowledge."
-    },
-    "technologies": {
-        "main": "Main Technologies",
-        "familiar": "Technologies I'm Familiar With"
-    },
-    "experience": [
-        {
-            "year": "2022 - Present",
-            "role": "Full Stack Developer",
-            "company": "SEMS UDG",
-            "description": "By quickly learning the technological stack used in the system and giving good results with the development of my assigned tasks, I was hired as an employee in the company. I continued with my learning to the point of being able to develop fully functional web application modules for the system both on the front end and the back end. These new modules would be successfully integrated and put into use, as well as the automation of system tasks through the use of routines or cron.",
-            "technologies": [
-                "JavaScript",
-                "React.JS",
-                "Express.JS",
-                "Sequelize",
-                "mySQL",
-                "Material-UI",
-                "Bootstrap"
-            ]
-        },
-        {
-            "year": "2021 - 2022",
-            "role": "Social Service Worker",
-            "company": "SEMS UDG",
-            "description": "I started my career in this company as a social service provider for part of my university career. I began to integrate by getting to know the project, the way the rest of the engineers worked and learning to use front end technologies that at that time were totally new to me through the development of user interfaces that needed to be integrated into the new system modules.",
-            "technologies": [
-                "JavaScript",
-                "React.JS",
-                "HTML",
-                "CSS",
-                "mySQL",
-                "Bootstrap"
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "title": "Calidad SEMS",
-            "description": "A web application in which we the system administrators, teachers, students, academic and administrative staff of the UDG high school network can perform automated school related tasks. https://calidad.sems.udg.mx/Creditos",
-            "technologies": [
-                "JavaScript",
-                "React.JS",
-                "Express.JS",
-                "Sequelize",
-                "mySQL",
-                "Material-UI",
-                "Bootstrap"
-            ],
-            "image": "/src/assets/projects/Calidad SEMS Credits.png"
-        },
-        {
-            "title": "E-Commerce Website",
-            "description": "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "image": "/src/assets/projects/project-1.jpg"
-        }
-    ],
-    "contact": {
-        "title": "Get in Touch",
-        "address": "Guadalajara Jalisco, México",
-        "phone": "+52 33-1041-9236",
-        "email": "emmanuel.arana.gutierrez@gmail.com"
+    {
+      "year": "2021 - 2022",
+      "role": "Social Service Worker",
+      "company": "SEMS UDG",
+      "description": "I started my career in this company as a social service provider for part of my university career. I began to integrate by getting to know the project, the way the rest of the engineers worked and learning to use front end technologies that at that time were totally new to me through the development of user interfaces that needed to be integrated into the new system modules.",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "mySQL",
+        "Bootstrap"
+      ]
     }
+  ],
+  "main-title-projects": "Projects",
+  "projects": [
+    {
+      "title": "Calidad SEMS",
+      "description": "A web application in which we the system administrators, teachers, students, academic and administrative staff of the UDG high school network can perform automated school related tasks. https://calidad.sems.udg.mx/Creditos",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "Express.JS",
+        "Sequelize",
+        "Node.JS",
+        "mySQL",
+        "MUI",
+        "Bootstrap"
+      ],
+      "image": "/src/assets/projects/Calidad SEMS Credits.png"
+    },
+    {
+      "title": "Cryptocurrency Exchange Rate App",
+      "description": "Application to calculate the exchange rate of currencies to cryptocurrencies to practice what I learned in a javascript course.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "/src/assets/projects/CryptocurrencyApp.png"
+    }
+  ],
+  "contact": {
+    "title": "Get in Touch",
+    "address": "Guadalajara Jalisco, México",
+    "phone": "+52 33-1041-9236",
+    "email": "emmanuel.arana.gutierrez@gmail.com"
+  }
 }

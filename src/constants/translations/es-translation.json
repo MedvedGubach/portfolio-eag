@@ -5,12 +5,13 @@
     },
     "about": {
         "title": "Acerca de Mí",
-        "text": "Soy un desarrollador full stack dedicado y versátil con pasión por crear aplicaciones web eficientes y fáciles de usar. Estudié la carrera Ingeniería en Ciencias Computacionales en el CUTonalá y me gradué logrando la licenciatura. Con 3 años de experiencia profesional, he trabajado con variedad de tecnologías de desarrollo web. Mi viaje en el desarrollo web comenzó de forma inusual interesándome en el hardware computadora, lo que me llevó a estudiar mi susodicha carrera. Al ingresar a la carrera me lleve la sorpresa de que no se trataba de nada relacionado al hardware, yo en ese entonces no tenía idea de programación así que me costó un poco integrar los nuevos conocimientos. Lo que me hizo apasionarme por la programación es la capacidad de crear soluciones para un problema desde cero, especialmente el diseño y desarrollo de aplicaciones. Me desenvuelvo en entornos colaborativos y disfruto resolviendo problemas complejos para ofrecer soluciones de alta calidad. Además de la programación soy gamer 🖥️🎮, un foodie, toco la guitarra eléctrica 🎸, leo libros y soy un metalhead 🤘 y usualmente tomo cursos en Udemy ya sea para mantenerme al tanto con las nuevas tecnologías o pulir mis conocimientos."
+        "text": "Soy un desarrollador full stack con 3 años de experiencia, apasionado por crear aplicaciones web eficientes y centradas en el usuario. Me gradué en Ingeniería en Ciencias Computacionales por el CUTonalá, donde descubrí mi interés por la programación a pesar de comenzar enfocado en hardware. Ese cambio despertó mi fascinación por resolver problemas y diseñar soluciones desde cero. Destaco por mi versatilidad y habilidad para trabajar en entornos colaborativos, ofreciendo soluciones de alta calidad con tecnologías modernas. Además de la programación, disfruto de los videojuegos, la música metal (también toco guitarra eléctrica 🎸), la lectura y el aprendizaje continuo, especialmente en plataformas como Udemy para mantenerme actualizado en el ámbito tecnológico."
     },
     "technologies": {
         "main": "Tecnologías Principales",
         "familiar": "Tecnologías Con Las Que Estoy Familiarizado"
     },
+    "main-title-experience": "Experiencia",
     "experience": [
         {
             "year": "2022 - Actualmente",
@@ -18,12 +19,13 @@
             "company": "SEMS UDG",
             "description": "Al aprender rápidamente el stack tecnológico utilizado en el sistema y dando buenos resultados con el desarrollo de mis tareas asignadas, fui contratado cómo empleado en la compañía. Continué con mi aprendizaje hasta el punto de ser capaz de desarrollar módulos de aplicación web completamente funcionales para el sistema tanto por la parte front end cómo el back end. Estos nuevos módulos serían integrados exitosamente y puestos en uso, así como la automatización de tareas del sistema mediante el uso de rutinas o cron.",
             "technologies": [
+               "React.JS",
                 "JavaScript",
-                "React.JS",
                 "Express.JS",
                 "Sequelize",
+                "Node.JS",
                 "mySQL",
-                "Material-UI",
+                "MUI",
                 "Bootstrap"
             ]
         },
@@ -33,8 +35,8 @@
             "company": "SEMS UDG",
             "description": "Inicie mi carrera en esta empresa cómo prestador de servicio social por parte de mi carrera universitaria. Comencé integrándome conociendo el proyecto, el modo de trabajo del resto de los ingenieros y aprendiendo a usar las tecnologías front end que en ese entonces eran totalmente nuevas para mi mediante el desarrollo de interfaces de usuario que requerían ser integradas en los nuevos módulos del sistema.",
             "technologies": [
-                "JavaScript",
                 "React.JS",
+                "JavaScript",
                 "HTML",
                 "CSS",
                 "mySQL",
@@ -42,34 +44,32 @@
             ]
         }
     ],
+    "main-title-projects": "Proyectos",
     "projects": [
         {
             "title": "Calidad SEMS",
             "description": "Una aplicación web en la que nosotros los administradores del sistema, docentes, alumnos, personal académico y administrativo de la red de preparatorias UDG pueden realizar tareas escolares automatizadas. https://calidad.sems.udg.mx/Creditos",
             "technologies": [
+               "React.JS",
                 "JavaScript",
-                "React.JS",
                 "Express.JS",
                 "Sequelize",
+                "Node.JS",
                 "mySQL",
-                "Material-UI",
+                "MUI",
                 "Bootstrap"
             ],
             "image": "/src/assets/projects/Calidad SEMS Credits.png"
         },
         {
-            "title": "Sitio web de comercio electrónico",
-            "description": "Un sitio web de comercio electrónico completamente funcional con características como listado de productos, carrito de compras y autenticación de usuarios.",
+            "title": "Cotizador de Criptomonedas",
+            "description": "Aplicación para calcular el tipo de cambio de divisas a criptomonedas hecho practicar lo aprendido en un curso de javascript.",
             "technologies": [
                 "JavaScript",
-                "React.JS",
-                "Express.JS",
-                "Sequelize",
-                "mySQL",
-                "Material-UI",
-                "Bootstrap"
+                "HTML",
+                "CSS"
             ],
-            "image": "/src/assets/projects/project-1.jpg"
+            "image": "/src/assets/projects/CryptocurrencyApp.png"
         }
     ],
     "contact": {

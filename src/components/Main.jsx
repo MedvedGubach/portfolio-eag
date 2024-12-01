@@ -9,7 +9,6 @@ const container = (delay) => ({
 
 const Hero = () => {
   const { t, i18n } = useTranslation();
-  console.log("t y i18 console log", t, i18n);
 
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -20,7 +19,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
             >
               Emmanuel Arana Gutierrez
             </motion.h1>

@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
 import { SiSequelize } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
@@ -62,6 +64,24 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800p-4"
         >
           <IoLogoJavascript className="text-7xl text-yellow-300" />
+        </motion.div>
+        
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800p-4"
+        >
+          <FaHtml5 className="text-7xl text-orange-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800p-4"
+        >
+          <FaCss3Alt className="text-7xl text-blue-600" />
         </motion.div>
 
         <motion.div

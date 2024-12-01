@@ -8,7 +8,6 @@ const SwitchLanguage = () => {
   const toggleLanguage = (e) => {
     const newLanguage = i18n.language === "en" ? "es" : "en";
     i18n.changeLanguage(newLanguage);
-    console.log("evento switch idioma", e.target.value);
   };
 
   return (

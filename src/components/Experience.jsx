@@ -9,6 +9,7 @@ const Experience = () => {
     <div className="border-b  border-neutral-900 pb-4">
       <AnimatePresence mode="wait">
         <motion.h1
+          key={i18n.language}
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           exit={{ opacity: 0, y: -100 }}

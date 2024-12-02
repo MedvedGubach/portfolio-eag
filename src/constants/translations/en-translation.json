@@ -59,7 +59,7 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "/src/assets/projects/Calidad SEMS Credits.png"
+      "image": "assets/projects/Calidad SEMS Credits.png"
     },
     {
       "title": "Web Portfolio",
@@ -72,13 +72,13 @@
         "Tailwind CSS",
         "Framer"
       ],
-      "image": "/src/assets/projects/PortfolioProject.png"
+      "image": "assets/projects/PortfolioProject.png"
     },
     {
       "title": "Cryptocurrency Exchange Rate App",
       "description": "Application to calculate the exchange rate of currencies to cryptocurrencies to practice what I learned in a javascript course.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "/src/assets/projects/CryptocurrencyApp.png"
+      "image": "assets/projects/CryptocurrencyApp.png"
     }
   ],
   "contact": {

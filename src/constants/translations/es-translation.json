@@ -59,7 +59,7 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "/src/assets/projects/Calidad SEMS Credits.png"
+      "image": "assets/projects/Calidad SEMS Credits.png"
     },
     {
       "title": "Portafolio Web",
@@ -72,14 +72,14 @@
         "Tailwind CSS",
         "Framer"
       ],
-      "image": "/src/assets/projects/PortfolioProject.png"
+      "image": "assets/projects/PortfolioProject.png"
     },
 
     {
       "title": "Cotizador de Criptomonedas",
       "description": "Aplicación para calcular el tipo de cambio de divisas a criptomonedas hecho practicar lo aprendido en un curso de javascript.",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "image": "/src/assets/projects/CryptocurrencyApp.png"
+      "image": "assets/projects/CryptocurrencyApp.png"
     }
   ],
   "contact": {

@@ -46,7 +46,7 @@ const CoursesCertifications = () => {
                             exit={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.5 }}
                             className="w-full max-w-xl lg:w-3/4">
-                            {isMobile ? (showPdf && (<img src={course.image} alt={course.title} className="w-full h-auto" />)) :
+                            {isMobile ? (showPdf && (<img src={course.imagePng} alt={course.title} className="w-full h-auto" />)) :
                                 (showPdf && (<embed src={course.image} type="application/pdf"  />))
                             }
                             {/* <h6 className="mb-2 font-semibold">{course.title}</h6>

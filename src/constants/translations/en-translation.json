@@ -51,14 +51,14 @@
       "description": "Basic introduccion course to React.JS issued by Platzi",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-react.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-react.png"
+      "imagePng": "assets/coursescertifications/png/diploma-react.png"
     },
     {
       "title": "Backend course with Node.JS API REST with Express.JS",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-backend-nodejs.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-backend-nodejs.png"
+      "imagePng": "assets/coursescertifications/png/diploma-backend-nodejs.png"
 
     },
     {
@@ -66,42 +66,42 @@
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-typescript.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-typescript.png"
+      "imagePng": "assets/coursescertifications/png/diploma-typescript.png"
     },
     {
       "title": "MySQL and MariaDB Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-mysql-mariadb.png"
+      "imagePng": "assets/coursescertifications/png/diploma-mysql-mariadb.png"
     },
     {
       "title": "Basic JavaScript Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-basico-javascript.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-basico-javascript.png"
+      "imagePng": "assets/coursescertifications/png/diploma-basico-javascript.png"
     },
     {
       "title": "Python Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-python.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-python.png"
+      "imagePng": "assets/coursescertifications/png/diploma-python.png"
     },
     {
       "title": "Material UI Foundamental Course with React.JS",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-material-ui.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-material-ui.png"
+      "imagePng": "assets/coursescertifications/png/diploma-material-ui.png"
     },
     {
       "title": "Bootstrap Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-bootstrap.pdf",
-      "image-png": "assets/coursescertifications/png/diploma-bootstrap.png"
+      "imagePng": "assets/coursescertifications/png/diploma-bootstrap.png"
     }
   ],
   "main-title-projects": "Projects",

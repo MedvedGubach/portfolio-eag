@@ -29,8 +29,8 @@ const Projects = () => {
                             className="w-full lg:w-1/4">
                             <img className="mb-6 rounded" height={150} width={150} src={project.image} alt={project.title} />
                         </motion.div>
-                        <AnimatePresence mode="wait">
 
+                        <AnimatePresence mode="wait">
                             <motion.div
                                 key={i18n.language}
                                 whileInView={{ opacity: 1, x: 0 }}

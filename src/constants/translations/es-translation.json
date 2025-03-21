@@ -44,6 +44,57 @@
       ]
     }
   ],
+  "main-title-courses-certifications": "Cursos y Certificaciones",
+  "courses-certifications": [
+    {
+      "title": "Curso de Introducción a React.JS",
+      "description": "Curso basico de introducción a React.JS expedido por Platzi",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-react.pdf"
+    },
+    {
+      "title": "Curso de Backend con Node.JS: API REST con Express.JS",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-backend-nodejs.pdf"
+    },
+    {
+      "title": "Curso de Fundamentos de TypeScript",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-typescript.pdf"
+    },
+    {
+      "title": "Curso de MySQL y MariaDB",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf"
+    },
+    {
+      "title": "Curso básico de JavaScript",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-basico-javascript.pdf"
+    },
+    {
+      "title": "Curso de Python",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-python.pdf"
+    },
+    {
+      "title": "Curso Fundamental de Material UI con React.JS",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-material-ui.pdf"
+    },
+    {
+      "title": "Curso de Bootstrap",
+      "description": "",
+      "type": "tecnico",
+      "image": "assets/coursescertifications/diploma-bootstrap.pdf"
+    }
+  ],
   "main-title-projects": "Proyectos",
   "projects": [
     {
@@ -74,11 +125,14 @@
       ],
       "image": "assets/projects/PortfolioProject.png"
     },
-
     {
       "title": "Cotizador de Criptomonedas",
       "description": "Aplicación para calcular el tipo de cambio de divisas a criptomonedas hecho practicar lo aprendido en un curso de javascript.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
       "image": "assets/projects/CryptocurrencyApp.png"
     }
   ],

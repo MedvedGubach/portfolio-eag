@@ -9,8 +9,12 @@ import { FaNodeJs } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaVuejs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+
 import { motion, AnimatePresence } from "motion/react";
 import { useTranslation } from "react-i18next";
+
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
@@ -41,7 +45,7 @@ const Technologies = () => {
           {t("technologies.main")}
         </motion.h1>
       </AnimatePresence>
-   
+
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
@@ -65,7 +69,7 @@ const Technologies = () => {
         >
           <IoLogoJavascript className="text-7xl text-yellow-300" />
         </motion.div>
-        
+
         <motion.div
           variants={iconVariants(3.5)}
           initial="initial"
@@ -142,6 +146,17 @@ const Technologies = () => {
           transition={{ duration: 1.5 }}
           className="flex flex-wrap items-center justify-center gap-4"
         >
+
+
+          <motion.div
+            variants={iconVariants(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800p-4"
+          >
+            <FaVuejs className="text-7xl text-green-500" />
+          </motion.div>
+
           <motion.div
             variants={iconVariants(2.5)}
             initial="initial"
@@ -152,6 +167,16 @@ const Technologies = () => {
           </motion.div>
 
           <motion.div
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800p-4"
+          >
+            <SiMongodb className="text-7xl text-green-700" />
+          </motion.div>
+
+
+          <motion.div
             variants={iconVariants(3)}
             initial="initial"
             animate="animate"
@@ -159,6 +184,7 @@ const Technologies = () => {
           >
             <RiTailwindCssFill className="text-7xl text-cyan-300" />
           </motion.div>
+
         </motion.div>
       </div>
     </Fragment>

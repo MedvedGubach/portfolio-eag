@@ -50,49 +50,57 @@
       "title": "Curso de Introducción a React.JS",
       "description": "Curso basico de introducción a React.JS expedido por Platzi",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-react.pdf"
+      "image": "assets/coursescertifications/diploma-react.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-react.png"
     },
     {
       "title": "Curso de Backend con Node.JS: API REST con Express.JS",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-backend-nodejs.pdf"
+      "image": "assets/coursescertifications/diploma-backend-nodejs.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-backend-nodejs.png"
     },
     {
       "title": "Curso de Fundamentos de TypeScript",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-typescript.pdf"
+      "image": "assets/coursescertifications/diploma-typescript.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-typescript.png"
     },
     {
       "title": "Curso de MySQL y MariaDB",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf"
+      "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-mysql-mariadb.png"
     },
     {
       "title": "Curso básico de JavaScript",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-basico-javascript.pdf"
+      "image": "assets/coursescertifications/diploma-basico-javascript.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-basico-javascript.png"
     },
     {
       "title": "Curso de Python",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-python.pdf"
+      "image": "assets/coursescertifications/diploma-python.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-python.png"
     },
     {
       "title": "Curso Fundamental de Material UI con React.JS",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-material-ui.pdf"
+      "image": "assets/coursescertifications/diploma-material-ui.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-material-ui.png"
     },
     {
       "title": "Curso de Bootstrap",
       "description": "",
       "type": "tecnico",
-      "image": "assets/coursescertifications/diploma-bootstrap.pdf"
+      "image": "assets/coursescertifications/diploma-bootstrap.pdf",
+      "image-png": "assets/coursescertifications/png/diploma-bootstrap.png"
     }
   ],
   "main-title-projects": "Proyectos",

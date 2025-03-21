@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useState, useEffect } from 'react'
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -6,6 +6,19 @@ const CoursesCertifications = () => {
     const { t, i18n } = useTranslation();
     const coursescertifications = t("courses-certifications", { returnObjects: true });
     const [showPdf, setShowPdf] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const userAgent = navigator.userAgent || navigator.vedor || window.opera;
+        if (/android/i.test(userAgent)) {
+            setIsMobile(true)
+        }
+
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            setIsMobile(true)
+        }
+    }, [])
+
 
     return (
         <Fragment>
@@ -33,7 +46,9 @@ const CoursesCertifications = () => {
                             exit={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.5 }}
                             className="w-full max-w-xl lg:w-3/4">
-                            {showPdf && (<embed src={course.image} type="" />)}
+                            {isMobile ? (showPdf && (<img src={course.image} alt={course.title} className="w-full h-auto" />)) :
+                                (showPdf && (<embed src={course.image} type="application/pdf"  />))
+                            }
                             {/* <h6 className="mb-2 font-semibold">{course.title}</h6>
                             <p className="mb-4 text-neutral-400">{course.description}</p> */}
                         </motion.div>

@@ -10,19 +10,14 @@ const CoursesCertifications = () => {
 
     useEffect(() => {
         const userAgent = navigator.userAgent || navigator.vedor || window.opera;
-        if (/android/i.test(userAgent)) {
-            setIsMobile(true)
-        }
-
-        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-            setIsMobile(true)
-        }
+        if (/android/i.test(userAgent)) { setIsMobile(true) }
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) { setIsMobile(true) }
     }, [])
 
 
     return (
         <Fragment>
-            <div className="border-b border-neutral-900 pb-4">
+            <section id='courses' className="border-b border-neutral-900 pb-4">
                 <AnimatePresence mode="wait">
                     <motion.h1
                         key={i18n.language}
@@ -47,14 +42,14 @@ const CoursesCertifications = () => {
                             transition={{ duration: 0.5 }}
                             className="w-full max-w-xl lg:w-3/4">
                             {isMobile ? (showPdf && (<img src={course.imagePng} alt={course.title} className="w-full h-auto" />)) :
-                                (showPdf && (<embed src={course.image} type="application/pdf"  />))
+                                (showPdf && (<embed src={course.image} type="application/pdf" />))
                             }
                             {/* <h6 className="mb-2 font-semibold">{course.title}</h6>
                             <p className="mb-4 text-neutral-400">{course.description}</p> */}
                         </motion.div>
                     ))}
                 </div>
-            </div>
+            </section>
         </Fragment>
     )
 }

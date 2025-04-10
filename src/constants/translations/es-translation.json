@@ -1,4 +1,26 @@
 {
+  "navbar-anchor-links": [
+    {
+      "name": "Tecnologías",
+      "id": "technologies"
+    },
+    {
+      "name": "Cursos y Certificaciones",
+      "id": "courses"
+    },
+    {
+      "name": "Experiencia",
+      "id": "experience"
+    },
+    {
+      "name": "Proyectos",
+      "id": "projects"
+    },
+    {
+      "name": "Contacto",
+      "id": "contact"
+    }
+  ],
   "hero": {
     "content": "Soy un apasionado desarrollador full stack con una habilidad especial para crear aplicaciones web robustas, intuitivas y amigables con el usuario. Con 3 años de experiencia práctica y una licenciatura en Ingeniería en Ciencias Computacionales, he perfeccionado mis habilidades utilizando el stack tecnológico SERN; Sequelize, Express.JS, React.JS y Node.JS así como otras tecnologías relacionadas al desarrollo web cómo: Bootstrap, mySQL, TypeScript, Material-UI y Tailwind CSS. Mi objetivo es aprovechar mi experiencia para crear soluciones innovadoras que impulsen el crecimiento empresarial y ofrezcan experiencias de usuario excepcionales.",
     "role": "Desarrollador Full Stack"
@@ -146,7 +168,17 @@
   ],
   "contact": {
     "title": "Contacto",
-    "address": "Guadalajara Jalisco, México",
+    "empty-fields": "Por favor llena todos los campos.",
+    "email-regex": "Por favor ingresa un e-mail válido.",
+    "email-wait": "Debes esperar antes de enviar otro e-mail.",
+    "sending-email": "Enviando e-mail...",
+    "toast-send": "E-mail enviado con éxito ✅",
+    "toast-send-error": "Error al enviar el e-mail ❌",
+    "toast-wait": "Debes esperar antes de enviar otro e-mail.",
+    "button-send": "Enviar E-mail",
+    "label-subject": "Asunto",
+    "label-message": "Mensaje",
+    "button-sending": "Enviando...",
     "phone": "+52 33-1041-9236",
     "email": "emmanuel.arana.gutierrez@gmail.com"
   },

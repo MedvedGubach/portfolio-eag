@@ -5,7 +5,7 @@ import UKFlag from "../assets/UKFlag.png";
 const SwitchLanguage = () => {
   const { i18n } = useTranslation();
 
-  const toggleLanguage = (e) => {
+  const toggleLanguage = () => {
     const newLanguage = i18n.language === "en" ? "es" : "en";
     i18n.changeLanguage(newLanguage);
   };
@@ -22,17 +22,15 @@ const SwitchLanguage = () => {
         }}
         className={`relative inline-flex h-6 w-12 items-center rounded-full focus:outline-none`}
         style={{
-          backgroundImage: `url(${
-            i18n.language === "en" ? UKFlag : SpainFlag
-          })`,
+          backgroundImage: `url(${i18n.language === "en" ? UKFlag : SpainFlag
+            })`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         <span
-          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform duration-300 ${
-            i18n.language === "en" ? "translate-x-1" : "translate-x-7"
-          }`}
+          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform duration-300 ${i18n.language === "en" ? "translate-x-1" : "translate-x-7"
+            }`}
         />
       </button>
     </div>

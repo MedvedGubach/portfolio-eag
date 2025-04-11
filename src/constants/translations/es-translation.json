@@ -143,6 +143,37 @@
       "image": "assets/projects/Calidad SEMS Credits.png"
     },
     {
+      "title": "Sistema de Tickets",
+      "description": "Aplicación web que permite a los usuarios crear y gestionar reportes dirigidos al equipo de administración. Los usuarios pueden enviar peticiones o reportar errores, incluyendo detalles como texto descriptivo y archivos adjuntos. Cada ticket se visualiza en un formato tipo chat, lo que facilita la comunicación bidireccional entre el usuario y la administración. A través de este canal, la administración puede dejar observaciones o solicitar más información, y el usuario puede responder, permitiendo así un seguimiento fluido hasta la resolución del caso.",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "Express.JS",
+        "Sequelize",
+        "Node.JS",
+        "mySQL",
+        "NodeMailer",
+        "Multer",
+        "MUI",
+        "Bootstrap"
+      ],
+      "image": "assets/projects/TicketSystemReport.png"
+    },
+    {
+      "title": "Herramienta de Gestión de Proyectos (En construcción)",
+      "description": "Aplicación de gestión de proyectos que permite a los usuarios crear tablones de actividades organizados por tareas. Cada tarea incluye una descripción detallada de lo que se debe realizar, niveles de prioridad y una casilla de verificación para marcar su finalización. El sistema está diseñado para facilitar la gestión visual del trabajo y el seguimiento del progreso de manera sencilla e intuitiva. Actualmente se encuentra en fase de desarrollo activo.",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "Express.JS",
+        "Node.JS",
+        "MongoDB",
+        "MUI",
+        "Tailwind CSS"
+      ],
+      "image": "assets/projects/ProjectMngmtTool.png"
+    },
+    {
       "title": "Portafolio Web",
       "description": "Un sitio web de portafolio personal que muestra proyectos, una introducción breve de mis habilidades, experiencia laboral e información de contacto.",
       "technologies": [

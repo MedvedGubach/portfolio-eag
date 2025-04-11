@@ -1,12 +1,26 @@
 {
   "navbar-anchor-links": [
-    {"name": "Technologies", "id": "technologies"},
-    {"name": "Courses and Certifications", "id": "courses"},
-    {"name": "Experience", "id": "experience"},
-    {"name": "Projects", "id": "projects"},
-    {"name": "Contact", "id": "contact"}
+    {
+      "name": "Technologies",
+      "id": "technologies"
+    },
+    {
+      "name": "Courses and Certifications",
+      "id": "courses"
+    },
+    {
+      "name": "Experience",
+      "id": "experience"
+    },
+    {
+      "name": "Projects",
+      "id": "projects"
+    },
+    {
+      "name": "Contact",
+      "id": "contact"
+    }
   ],
-
   "hero": {
     "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
     "role": "Full Stack Developer"
@@ -67,7 +81,6 @@
       "type": "technical",
       "image": "assets/coursescertifications/diploma-backend-nodejs.pdf",
       "imagePng": "assets/coursescertifications/png/diploma-backend-nodejs.png"
-
     },
     {
       "title": "TypeScript Foundamentals Course",
@@ -130,6 +143,37 @@
       "image": "assets/projects/Calidad SEMS Credits.png"
     },
     {
+      "title": "Ticket System",
+      "description": "Web application that allows users to create and manage reports for the administration team. Users can submit requests or report errors, including details such as descriptive text and attachments. Each ticket is displayed in a chat-like format, facilitating two-way communication between the user and administration. Through this channel, administration can leave comments or request more information, and the user can respond, allowing for smooth follow-up until the case is resolved.",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "Express.JS",
+        "Sequelize",
+        "Node.JS",
+        "mySQL",
+        "NodeMailer",
+        "Multer",
+        "MUI",
+        "Bootstrap"
+      ],
+      "image": "assets/projects/TicketSystemReport.png"
+    },
+    {
+      "title": "Project Management Tool (Currently Underwork)",
+      "description": "Project management application that allows users to create activity boards organized by task. Each task includes a detailed description of what needs to be done, priority levels, and a checkbox to mark its completion. The system is designed to facilitate visual management of work and tracking progress in a simple and intuitive way. It is currently under active development.",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "Express.JS",
+        "Node.JS",
+        "MongoDB",
+        "MUI",
+        "Tailwind CSS"
+      ],
+      "image": "assets/projects/ProjectMngmtTool.png"
+    },
+    {
       "title": "Web Portfolio",
       "description": "A personal portfolio website showing projects, a brief introduction of my skills, work experience and contact information.",
       "technologies": [
@@ -157,18 +201,17 @@
     "title": "Get in Touch",
     "empty-fields": "Please fill in all fields.",
     "email-regex": "Please enter a valid e-mail address..",
-    "email-wait":"You must wait before sending another e-mail..",
-    "sending-email":"Sending e-mail...",
-    "toast-send":"Email sent successfully ✅",
-    "toast-send-error":"Error sending e-mail ❌",
+    "email-wait": "You must wait before sending another e-mail..",
+    "sending-email": "Sending e-mail...",
+    "toast-send": "Email sent successfully ✅",
+    "toast-send-error": "Error sending e-mail ❌",
     "toast-wait": "You must wait before sending another e-mail.",
-    "button-send":"Send E-mail",
+    "button-send": "Send E-mail",
     "label-subject": "Subject",
     "label-message": "Message",
-    "button-sending":"Sending...",
+    "button-sending": "Sending...",
     "phone": "+52 33-1041-9236",
     "email": "emmanuel.arana.gutierrez@gmail.com"
-    
   },
   "constructon-text": "More Coming Soon..."
 }

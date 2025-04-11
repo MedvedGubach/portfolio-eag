@@ -22,6 +22,7 @@ const About = () => {
       <AnimatePresence mode="wait">
         <motion.h1
           key={i18n.language}
+          viewport={{ once: true }}
           className="my-20 text-center text-4xl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -34,6 +35,7 @@ const About = () => {
 
       <div className="flex flex-wrap">
         <motion.div
+          viewport={{ once: true }}
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
@@ -42,6 +44,7 @@ const About = () => {
           <div className="flex items-center justify-center relative">
             <AnimatePresence mode="wait">
               <motion.img
+                viewport={{ once: true }}
                 key={currentIndex}
                 src={images[currentIndex]}
                 alt="about"
@@ -57,6 +60,7 @@ const About = () => {
 
         <AnimatePresence mode="wait">
           <motion.div
+            viewport={{ once: true }}
             key={i18n.language}
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -37,6 +37,7 @@ const Illustration = () => {
       <AnimatePresence mode="wait">
         <motion.h1
           key={i18n.language}
+          viewport={{ once: true }}
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           exit={{ opacity: 0, y: -100 }}

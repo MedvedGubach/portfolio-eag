@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "../assets/SlothBearIcon.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import SwitchLanguage from "./SwitchLanguage";
@@ -8,11 +8,21 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   const { t } = useTranslation();
   const anchorLinks = t("navbar-anchor-links", { returnObjects: true });
+  const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  useEffect(() => {
+    const handleScroll = () => { setScrolled(window.scrollY > 100); }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [])
+
+
   return (
-    <nav className="sticky top-0 z-50 mb-20 flex items-center justify-between py-6 backdrop-blur bg-neutral-950/80">
+    <nav className={`sticky top-0 z-50 mb-20 py-6 flex items-center justify-between transition-all duration-500 ease-in-out
+    ${scrolled ? "backdrop-blur bg-neutral-950/80 shadow-md" : "bg-transparent"}`}>
+
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10 rounded-2xl" src={logo} alt="logo" />
       </div>

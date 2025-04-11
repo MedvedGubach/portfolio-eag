@@ -16,6 +16,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
+              viewport={{ once: true }}
               variants={container(0)}
               initial="hidden"
               animate="visible"
@@ -27,6 +28,7 @@ const Hero = () => {
             <AnimatePresence mode="wait">
               <motion.span
                 key={i18n.language}
+                viewport={{ once: true }}
                 variants={container(0.5)}
                 initial="hidden"
                 animate="visible"
@@ -41,6 +43,7 @@ const Hero = () => {
             <AnimatePresence mode="wait">
               <motion.p
                 key={i18n.language}
+                viewport={{ once: true }}
                 variants={container(0.75)}
                 initial="hidden"
                 animate="visible"
@@ -57,6 +60,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center"></div>
           <motion.img
+            viewport={{ once: true }}
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}

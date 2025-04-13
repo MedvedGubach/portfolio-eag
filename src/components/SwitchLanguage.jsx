@@ -21,6 +21,7 @@ const SwitchLanguage = () => {
           toggleLanguage(e);
         }}
         className={`relative inline-flex h-6 w-12 items-center rounded-full focus:outline-none`}
+        aria-label="language-switch"
         style={{
           backgroundImage: `url(${i18n.language === "en" ? UKFlag : SpainFlag
             })`,

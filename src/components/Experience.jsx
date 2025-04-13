@@ -46,12 +46,12 @@ const Experience = () => {
                   transition={{ duration: 0.5 }}
                   className="w-full max-w-xl lg:w-3/4"
                 >
-                  <h6 className="mb-2 font-semibold">
+                  <h1 className="mb-2 font-semibold">
                     {experience.role} -
                     <span className="text-sm text-purple-100">
                       {experience.company}
                     </span>
-                  </h6>
+                  </h1>
                   <p className="mb-4 text-neutral-400">
                     {experience.description}
                   </p>

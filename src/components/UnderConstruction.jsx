@@ -60,7 +60,7 @@ const Illustration = () => {
             repeatType: "reverse",
           }}
         >
-          <img src={I4} />
+          <img src={I4} alt="underConstruccion 4" />
         </motion.div>
 
         <motion.div
@@ -74,7 +74,7 @@ const Illustration = () => {
             repeatType: "reverse",
           }}
         >
-          <img src={I3} />
+          <img src={I3} alt="underConstruccion 3" />
         </motion.div>
 
         <motion.div
@@ -88,7 +88,7 @@ const Illustration = () => {
             repeatType: "reverse",
           }}
         >
-          <img src={I2} />
+          <img src={I2} alt="underConstruccion 2" />
         </motion.div>
 
         <motion.div
@@ -102,7 +102,7 @@ const Illustration = () => {
             repeatType: "reverse",
           }}
         >
-          <img src={I1} />
+          <img src={I1} alt="underConstruccion 1" />
         </motion.div>
       </div>
     </Fragment>

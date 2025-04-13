@@ -90,22 +90,21 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Formulario */}
           <form ref={form} onSubmit={sendEmail} className="space-y-6">
             <div>
-              <label className="block text-sm font-medium mb-1">E-mail</label>
-              <input type="email" name="user_email" required className="w-full text-black border border-gray-300 p-2 rounded-md" />
+              <label className="text-white block text-sm font-medium mb-1">E-mail</label>
+              <input aria-label="E-Mail" type="email" name="user_email" required className="w-full text-black border border-gray-300 p-2 rounded-md" />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">{t("contact.label-subject")}</label>
-              <input type="text" name="subject" required className="w-full text-black border border-gray-300 p-2 rounded-md" />
+              <label className="text-white block text-sm font-medium mb-1">{t("contact.label-subject")}</label>
+              <input aria-label="Subject" type="text" name="subject" required className="w-full text-black border border-gray-300 p-2 rounded-md" />
             </div>
             <div>
-              <input type="text" name="botboobytrap" className="hidden" autoComplete="off" />
+              <input aria-label="Botboobytrap" type="text" name="botboobytrap" className="hidden" autoComplete="off" />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">{t("contact.label-message")}</label>
-              <textarea name="message" rows="5" required className="w-full text-black border border-gray-300 p-2 rounded-md" />
+              <label className="text-white block text-sm font-medium mb-1">{t("contact.label-message")}</label>
+              <textarea aria-label="Message" name="message" rows="5" required className="w-full text-black border border-gray-300 p-2 rounded-md" />
             </div>
             <motion.button
               type="submit"

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "../assets/SlothBearIcon.png";
+import logo from "../assets/SlothBearIcon.webp";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import SwitchLanguage from "./SwitchLanguage";
 import { useTranslation } from "react-i18next";

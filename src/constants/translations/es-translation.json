@@ -73,56 +73,56 @@
       "description": "Curso basico de introducción a React.JS expedido por Platzi",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-react.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-react.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-react.webp"
     },
     {
       "title": "Curso de Backend con Node.JS: API REST con Express.JS",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-backend-nodejs.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-backend-nodejs.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-backend-nodejs.webp"
     },
     {
       "title": "Curso de Fundamentos de TypeScript",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-typescript.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-typescript.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-typescript.webp"
     },
     {
       "title": "Curso de MySQL y MariaDB",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-mysql-mariadb.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-mysql-mariadb.webp"
     },
     {
       "title": "Curso básico de JavaScript",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-basico-javascript.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-basico-javascript.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-basico-javascript.webp"
     },
     {
       "title": "Curso de Python",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-python.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-python.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-python.webp"
     },
     {
       "title": "Curso Fundamental de Material UI con React.JS",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-material-ui.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-material-ui.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-material-ui.webp"
     },
     {
       "title": "Curso de Bootstrap",
       "description": "",
       "type": "tecnico",
       "image": "assets/coursescertifications/diploma-bootstrap.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-bootstrap.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-bootstrap.webp"
     }
   ],
   "main-title-projects": "Proyectos",
@@ -140,7 +140,7 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "assets/projects/Calidad SEMS Credits.png"
+      "image": "assets/projects/Calidad SEMS Credits.webp"
     },
     {
       "title": "Sistema de Tickets",
@@ -157,7 +157,7 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "assets/projects/TicketSystemReport.png"
+      "image": "assets/projects/TicketSystemReport.webp"
     },
     {
       "title": "Herramienta de Gestión de Proyectos (En construcción)",
@@ -171,7 +171,7 @@
         "MUI",
         "Tailwind CSS"
       ],
-      "image": "assets/projects/ProjectMngmtTool.png"
+      "image": "assets/projects/ProjectMngmtTool.webp"
     },
     {
       "title": "Portafolio Web",
@@ -184,7 +184,7 @@
         "Tailwind CSS",
         "Framer"
       ],
-      "image": "assets/projects/PortfolioProject.png"
+      "image": "assets/projects/PortfolioProject.webp"
     },
     {
       "title": "Cotizador de Criptomonedas",
@@ -194,7 +194,7 @@
         "HTML",
         "CSS"
       ],
-      "image": "assets/projects/CryptocurrencyApp.png"
+      "image": "assets/projects/CryptocurrencyApp.webp"
     }
   ],
   "contact": {

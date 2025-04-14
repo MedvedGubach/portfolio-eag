@@ -1,4 +1,4 @@
-import profilePic from "../assets/EAGProfileBW1.jpg";
+import profilePic from "../assets/EAGProfileBW1.webp";
 import { motion, AnimatePresence } from "motion/react";
 import { useTranslation } from "react-i18next";
 
@@ -60,8 +60,8 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center"></div>
           <motion.img
-            height={408}
             width={544}
+            height={408}
             viewport={{ once: true }}
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}

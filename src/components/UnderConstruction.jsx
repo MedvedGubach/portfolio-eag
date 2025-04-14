@@ -51,58 +51,29 @@ const Illustration = () => {
       <div style={styles.illustrationOuter}>
         <motion.div
           style={{ ...styles.illustrationInner, ...styles.i4 }}
-          animate={{
-            y: SLOW,
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "reverse",
-          }}
-        >
-          <img src={I4} alt="underConstruccion 4" />
+          animate={{ y: SLOW, }}
+          transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", }}>
+          <img width={378} height={229} src={I4} alt="underConstruccion 4" />
         </motion.div>
 
         <motion.div
           style={{ ...styles.illustrationInner, ...styles.i3 }}
-          animate={{
-            y: SLOW,
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "reverse",
-          }}
-        >
-          <img src={I3} alt="underConstruccion 3" />
+          animate={{ y: SLOW, }}
+          transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", }} >
+          <img width={258} height={133} src={I3} alt="underConstruccion 3" />
         </motion.div>
 
         <motion.div
           style={{ ...styles.illustrationInner, ...styles.i2 }}
-          animate={{
-            y: AVG,
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "reverse",
-          }}
-        >
-          <img src={I2} alt="underConstruccion 2" />
+          animate={{ y: AVG, }}
+          transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", }}>
+          <img width={313} height={258} src={I2} alt="underConstruccion 2" />
         </motion.div>
 
         <motion.div
           style={{ ...styles.illustrationInner, ...styles.i1 }}
-          animate={{
-            y: FAST,
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "reverse",
-          }}
-        >
-          <img src={I1} alt="underConstruccion 1" />
+          animate={{ y: FAST, }} transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", }} >
+          <img src={I1} width={250} height={150} alt="underConstruccion 1" />
         </motion.div>
       </div>
     </Fragment>

@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import aboutImg1 from "../assets/about1.jpeg";
-import aboutImg2 from "../assets/about2.jpg";
+import aboutImg1 from "../assets/about1.webp";
+import aboutImg2 from "../assets/about2.webp";
 
 const About = () => {
   const { t, i18n } = useTranslation();
@@ -47,6 +47,8 @@ const About = () => {
                 viewport={{ once: true }}
                 key={currentIndex}
                 src={images[currentIndex]}
+                width={544}
+                height={245}
                 alt="about"
                 className="rounded-2xl"
                 initial={{ opacity: 0, x: -50 }}

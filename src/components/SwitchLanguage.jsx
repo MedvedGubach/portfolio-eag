@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import SpainFlag from "../assets/SpainFlag.png";
-import UKFlag from "../assets/UKFlag.png";
+import SpainFlag from "../assets/SpainFlag.webp";
+import UKFlag from "../assets/UKFlag.webp";
 
 const SwitchLanguage = () => {
   const { i18n } = useTranslation();

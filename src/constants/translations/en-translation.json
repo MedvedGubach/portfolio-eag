@@ -73,56 +73,56 @@
       "description": "Basic introduccion course to React.JS issued by Platzi",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-react.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-react.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-react.webp"
     },
     {
       "title": "Backend course with Node.JS API REST with Express.JS",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-backend-nodejs.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-backend-nodejs.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-backend-nodejs.webp"
     },
     {
       "title": "TypeScript Foundamentals Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-typescript.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-typescript.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-typescript.webp"
     },
     {
       "title": "MySQL and MariaDB Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-mysql-mariadb.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-mysql-mariadb.webp"
     },
     {
       "title": "Basic JavaScript Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-basico-javascript.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-basico-javascript.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-basico-javascript.webp"
     },
     {
       "title": "Python Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-python.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-python.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-python.webp"
     },
     {
       "title": "Material UI Foundamental Course with React.JS",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-material-ui.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-material-ui.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-material-ui.webp"
     },
     {
       "title": "Bootstrap Course",
       "description": "",
       "type": "technical",
       "image": "assets/coursescertifications/diploma-bootstrap.pdf",
-      "imagePng": "assets/coursescertifications/png/diploma-bootstrap.png"
+      "imagePng": "assets/coursescertifications/mobileView/diploma-bootstrap.webp"
     }
   ],
   "main-title-projects": "Projects",
@@ -140,7 +140,7 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "assets/projects/Calidad SEMS Credits.png"
+      "image": "assets/projects/Calidad SEMS Credits.webp"
     },
     {
       "title": "Ticket System",
@@ -157,7 +157,7 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "assets/projects/TicketSystemReport.png"
+      "image": "assets/projects/TicketSystemReport.webp"
     },
     {
       "title": "Project Management Tool (Currently Underwork)",
@@ -171,7 +171,7 @@
         "MUI",
         "Tailwind CSS"
       ],
-      "image": "assets/projects/ProjectMngmtTool.png"
+      "image": "assets/projects/ProjectMngmtTool.webp"
     },
     {
       "title": "Web Portfolio",
@@ -184,7 +184,7 @@
         "Tailwind CSS",
         "Framer"
       ],
-      "image": "assets/projects/PortfolioProject.png"
+      "image": "assets/projects/PortfolioProject.webp"
     },
     {
       "title": "Cryptocurrency Exchange Rate App",
@@ -194,7 +194,7 @@
         "CSS",
         "JavaScript"
       ],
-      "image": "assets/projects/CryptocurrencyApp.png"
+      "image": "assets/projects/CryptocurrencyApp.webp"
     }
   ],
   "contact": {

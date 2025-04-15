@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className={`${isMenuOpen ? "block" : "hidden"
         } sm:hidden absolute top-20 left-0 w-full bg-neutral-800 p-4 space-y-4`}>
         {anchorLinks.map((anchor, index) => (
-          <a key={index} href={`#${anchor.id}`} onClick={(e) => { console.log('click en anchor link mobile'); e.preventDefault(); document.getElementById(anchor.id)?.scrollIntoView({ behavior: "smooth" }); }}
+          <a key={index} href={`#${anchor.id}`} onClick={(e) => { e.preventDefault(); document.getElementById(anchor.id)?.scrollIntoView({ behavior: "smooth" }); toggleMenu(); }}
             className="block hover:cursor-pointer text-white hover:text-cyan-300">
             {anchor.name}
           </a>

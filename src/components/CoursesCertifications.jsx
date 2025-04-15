@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 const CoursesCertifications = () => {
     const { t, i18n } = useTranslation();
     const coursescertifications = t("courses-certifications", { returnObjects: true });
-    console.log(coursescertifications);
     const [isMobile, setIsMobile] = useState(false);
     const [visibleItems, setVisibleItems] = useState({});
     const handleEnterViewport = (index) => { setVisibleItems((prev) => ({ ...prev, [index]: true })) };

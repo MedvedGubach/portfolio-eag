@@ -11,7 +11,7 @@ const Hero = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 mb lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -20,7 +20,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
+              className="pb-5 font-thin tracking-tight lg:mt-10 text-4xl  sm:text-5xl md:text-6xl lg:text-6xl"
             >
               Emmanuel Arana Gutierrez
             </motion.h1>
@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
 
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center"></div>
+          <div className="flex justify-center mt-1"></div>
           <motion.img
             width={544}
             height={408}

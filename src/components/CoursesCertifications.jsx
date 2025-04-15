@@ -5,14 +5,21 @@ import { useTranslation } from "react-i18next";
 const CoursesCertifications = () => {
     const { t, i18n } = useTranslation();
     const coursescertifications = t("courses-certifications", { returnObjects: true });
-    const [showPdf, setShowPdf] = useState(false);
+    console.log(coursescertifications);
     const [isMobile, setIsMobile] = useState(false);
+    const [visibleItems, setVisibleItems] = useState({});
+    const handleEnterViewport = (index) => { setVisibleItems((prev) => ({ ...prev, [index]: true })) };
 
     useEffect(() => {
-        const userAgent = navigator.userAgent || navigator.vedor || window.opera;
-        if (/android/i.test(userAgent)) { setIsMobile(true) }
-        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) { setIsMobile(true) }
-    }, [])
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        const isMobileUserAgent =
+            /android/i.test(userAgent) ||
+            /iPad|iPhone|iPod/.test(userAgent) ||
+            /Tablet|Touch/i.test(userAgent) ||
+            (navigator.maxTouchPoints && navigator.maxTouchPoints > 1);
+
+        setIsMobile(isMobileUserAgent);
+    }, []);
 
 
     return (
@@ -30,22 +37,23 @@ const CoursesCertifications = () => {
                     </motion.h1>
                 </AnimatePresence>
 
-                <div className='grid grid-cols-4 gap-4 text-center'>
+                <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-1 sm:gap-1 lg:gap-4 xl:gap-4 text-center'>
                     {coursescertifications.map((course, index) => (
                         <motion.div
                             key={index}
                             viewport={{ once: true }}
-                            onViewportEnter={() => setShowPdf(true)}
+                            onViewportEnter={() => handleEnterViewport(index)}
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
                             exit={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.5 }}
-                            className="w-full max-w-xl lg:w-3/4">
-                            {isMobile ? (showPdf && (<img src={course.imagePng} alt={course.title} className="w-full h-auto" />)) :
-                                (showPdf && (<embed src={course.image} type="application/pdf" />))
-                            }
-                            {/* <h6 className="mb-2 font-semibold">{course.title}</h6>
-                            <p className="mb-4 text-neutral-400">{course.description}</p> */}
+                            className="w-full">
+                            {isMobile ? (visibleItems[index] && (<img src={course.imagePng} alt={course.title} className="w-full h-auto" />))
+                                : (visibleItems[index] && (
+                                    <object data={course.image} type="application/pdf" className="w-full h-auto">
+                                        <img src={course.imagePng} alt={`${course.title} (Course Image)`} className="w-full h-auto" />
+                                    </object>
+                                ))}
                         </motion.div>
                     ))}
                 </div>
@@ -53,5 +61,4 @@ const CoursesCertifications = () => {
         </Fragment>
     )
 }
-
 export default CoursesCertifications

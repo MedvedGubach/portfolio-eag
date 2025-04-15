@@ -70,7 +70,7 @@ const Contact = () => {
           </motion.h1>
         </AnimatePresence>
 
-        <div className="w-full max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 rounded-xl shadow-lg">
+        <div className="w-full max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 rounded-xl shadow-lg ring">
           <div className="flex flex-col justify-between">
             <div className="mt-10 space-y-6 text-gray-700">
               <div className="flex items-start gap-3 text-white">

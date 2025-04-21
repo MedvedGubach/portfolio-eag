@@ -30,8 +30,8 @@
     "text": "Soy un desarrollador full stack con 3 años de experiencia, apasionado por crear aplicaciones web eficientes y centradas en el usuario. Me gradué en Ingeniería en Ciencias Computacionales por el CUTonalá, donde descubrí mi interés por la programación a pesar de comenzar enfocado en hardware. Ese cambio despertó mi fascinación por resolver problemas y diseñar soluciones desde cero. Destaco por mi versatilidad y habilidad para trabajar en entornos colaborativos, ofreciendo soluciones de alta calidad con tecnologías modernas. Además de la programación, disfruto de los videojuegos 🖥️🎮, la música metal 🤘 (también toco guitarra eléctrica 🎸), la lectura y el aprendizaje continuo, especialmente en plataformas como Udemy para mantenerme actualizado en el ámbito tecnológico."
   },
   "technologies": {
-    "main": "Tecnologías Principales",
-    "familiar": "Tecnologías Con Las Que Estoy Familiarizado"
+    "main": "Tecnologías y Herramientas",
+    "tools": "Herramientas"
   },
   "main-title-experience": "Experiencia",
   "experience": [
@@ -140,7 +140,24 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "assets/projects/Calidad SEMS Credits.webp"
+      "image": "assets/projects/Calidad SEMS Credits.webp",
+      "repo": ""
+    },
+    {
+      "title": "Explore the Universe - Aplicación Web Interactiva - MVP",
+      "description": "Explore the Universe es una aplicación web interactiva impulsada por APIs de la NASA que permite a los usuarios descubrir el espacio a través de datos científicos reales. Incluye la Imagen Astronómica del Día con explicaciones detalladas, una función de búsqueda conectada a la Biblioteca de Imágenes y Videos de la NASA para explorar fotografías y videos, y un modelo 3D completamente interactivo del sistema solar desarrollado con Three.js. Los usuarios pueden navegar por distintos cuerpos celestes, verlos de cerca y acceder a información relevante, haciendo que la experiencia sea educativa y visualmente atractiva.",
+      "technologies": [
+        "React.JS",
+        "TypeScript",
+        "Express.JS",
+        "GraphQL",
+        "Node.JS",
+        "Three.JS",
+        "Headless UI",
+        "Tailwind CSS"
+      ],
+      "image": "assets/projects/ExploreTheUniverse.webp",
+      "repo": "https://github.com/MedvedGubach/explore-the-universe"
     },
     {
       "title": "Sistema de Tickets",
@@ -157,7 +174,8 @@
         "MUI",
         "Bootstrap"
       ],
-      "image": "assets/projects/TicketSystemReport.webp"
+      "image": "assets/projects/TicketSystemReport.webp",
+      "repo": "https://github.com/MedvedGubach/clon-gestion"
     },
     {
       "title": "Herramienta de Gestión de Proyectos (En construcción)",
@@ -171,7 +189,8 @@
         "MUI",
         "Tailwind CSS"
       ],
-      "image": "assets/projects/ProjectMngmtTool.webp"
+      "image": "assets/projects/ProjectMngmtTool.webp",
+      "repo": "https://github.com/MedvedGubach/project-mngmt-tool"
     },
     {
       "title": "Portafolio Web",
@@ -184,7 +203,8 @@
         "Tailwind CSS",
         "Framer"
       ],
-      "image": "assets/projects/PortfolioProject.webp"
+      "image": "assets/projects/PortfolioProject.webp",
+      "repo": "https://github.com/MedvedGubach/portfolio-eag"
     },
     {
       "title": "Cotizador de Criptomonedas",
@@ -194,7 +214,8 @@
         "HTML",
         "CSS"
       ],
-      "image": "assets/projects/CryptocurrencyApp.webp"
+      "image": "assets/projects/CryptocurrencyApp.webp",
+      "repo": "https://github.com/MedvedGubach/crypto-exchange-rate-app"
     }
   ],
   "contact": {

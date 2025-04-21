@@ -18,7 +18,38 @@ const CoursesCertifications = () => {
             (navigator.maxTouchPoints && navigator.maxTouchPoints > 1);
 
         setIsMobile(isMobileUserAgent);
-    }, []);
+
+        const observers = [];
+
+        coursescertifications.forEach((_, index) => {
+            const el = document.getElementById(`pdf-course-${index}`);
+            if (!el) return;
+
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting) {
+                        setVisibleItems(prev => ({
+                            ...prev,
+                            [index]: true,
+                        }));
+                        observer.unobserve(el);
+                    }
+                },
+                {
+                    root: null,
+                    rootMargin: '200px',
+                    threshold: 0.1,
+                }
+            );
+
+            observer.observe(el);
+            observers.push(observer);
+        });
+
+        return () => {
+            observers.forEach(observer => observer.disconnect());
+        };
+    }, [coursescertifications]);
 
 
     return (
@@ -44,6 +75,8 @@ const CoursesCertifications = () => {
                             onViewportEnter={() => handleEnterViewport(index)}
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
+                            id={`pdf-course-${index}`}
+                            animate={visibleItems[index] ? { opacity: 1, x: 0 } : {}}
                             exit={{ opacity: 0, x: 100 }}
                             transition={{ duration: 0.5 }}
                             className="w-full">

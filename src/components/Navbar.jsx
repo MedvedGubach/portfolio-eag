@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="hidden sm:flex  sm:space-x-5 lg:space-x-5 xl:space-x-10">
         {anchorLinks.map((anchor, index) => (
           <a key={index} href={`#${anchor.id}`} onClick={(e) => { e.preventDefault(); document.getElementById(anchor.id)?.scrollIntoView({ behavior: "smooth" }); }}
-            className="hover:cursor-pointer text-white hover:text-cyan-300">
+            className="hover:cursor-pointer text-white hover:text-cyan-300 transition duration-300">
             {anchor.name}
           </a>
         ))}

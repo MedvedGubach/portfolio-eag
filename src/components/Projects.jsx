@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -31,8 +32,8 @@ const Projects = () => {
                                 className="w-full lg:w-1/4">
                                 <img className="mb-6 rounded" height={150} width={150} src={project.image} alt={project.title} />
                             </motion.div>
-
                             <AnimatePresence mode="wait">
+
                                 <motion.div
                                     key={i18n.language}
                                     viewport={{ once: true }}
@@ -42,6 +43,11 @@ const Projects = () => {
                                     transition={{ duration: 0.5 }}
                                     className="w-full max-w-xl lg:w-3/4"
                                 >
+                                    {project.repo === '' ? null :
+                                        <a href={project.repo} className="inline-block" aria-label="Visit my GitHub Project" target="_blank" rel="noopener noreferrer">
+                                            <FaGithub className="hover:text-white transition duration-300 text-4xl pb-1" />
+                                        </a>
+                                    }
                                     <h1 className="mb-2 font-semibold">{project.title}</h1>
                                     <p className="mb-4 text-neutral-400">{project.description}</p>
                                     <div className="flex flex-wrap gap-2">

@@ -10,7 +10,7 @@ export const BackendIcons = [
         tooltip: "Node.JS",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(34,197,94,0.8)]",
         tooltipBg: "bg-green-500",
-        tooltipText: "text-white",
+        tooltipText: "text-black",
     },
     {
         icon: SiExpress,
@@ -19,7 +19,7 @@ export const BackendIcons = [
         tooltip: "Express.JS",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(209,213,219,0.8)]",
         tooltipBg: "bg-gray-300",
-        tooltipText: "text-white",
+        tooltipText: "text-black",
     },
     {
         icon: SiGraphql,

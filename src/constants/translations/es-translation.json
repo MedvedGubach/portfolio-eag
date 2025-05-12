@@ -36,7 +36,7 @@
   "main-title-experience": "Experiencia",
   "experience": [
     {
-      "year": "2022 - Actualmente",
+      "year": "2022 - 2025 (Descanso Profesional)",
       "role": "Desarrollador Full Stack",
       "company": "SEMS UDG",
       "description": "Al aprender rápidamente el stack tecnológico utilizado en el sistema y dando buenos resultados con el desarrollo de mis tareas asignadas, fui contratado cómo empleado en la compañía. Continué con mi aprendizaje hasta el punto de ser capaz de desarrollar módulos de aplicación web completamente funcionales para el sistema tanto por la parte front end cómo el back end. Estos nuevos módulos serían integrados exitosamente y puestos en uso, así como la automatización de tareas del sistema mediante el uso de rutinas o cron.",
@@ -44,11 +44,14 @@
         "React.JS",
         "JavaScript",
         "Express.JS",
+        "HTML",
+        "CSS",
         "Sequelize",
         "Node.JS",
-        "mySQL",
+        "SQL",
         "MUI",
-        "Bootstrap"
+        "Bootstrap",
+        "Multer"
       ]
     },
     {
@@ -61,7 +64,7 @@
         "JavaScript",
         "HTML",
         "CSS",
-        "mySQL",
+        "SQL",
         "Bootstrap"
       ]
     }
@@ -128,23 +131,28 @@
   "main-title-projects": "Proyectos",
   "projects": [
     {
-      "title": "Calidad SEMS",
+      "title": "Calidad SEMS - (Proyecto para una red estatal de escuelas preparatorias)",
       "description": "Una aplicación web en la que nosotros los administradores del sistema, docentes, alumnos, personal académico y administrativo de la red de preparatorias UDG pueden realizar tareas escolares automatizadas. https://calidad.sems.udg.mx/Creditos",
       "technologies": [
         "React.JS",
         "JavaScript",
         "Express.JS",
+        "HTML",
+        "CSS",
         "Sequelize",
         "Node.JS",
-        "mySQL",
+        "SQL",
         "MUI",
-        "Bootstrap"
+        "Bootstrap",
+        "Multer"
       ],
       "image": "assets/projects/Calidad SEMS Credits.webp",
-      "repo": ""
+      "tag": "Private",
+      "repo": "",
+      "deploy": ""
     },
     {
-      "title": "Explore the Universe - Aplicación Web Interactiva - MVP",
+      "title": "Explore the Universe - Aplicación Web Interactiva",
       "description": "Explore the Universe es una aplicación web interactiva impulsada por APIs de la NASA que permite a los usuarios descubrir el espacio a través de datos científicos reales. Incluye la Imagen Astronómica del Día con explicaciones detalladas, una función de búsqueda conectada a la Biblioteca de Imágenes y Videos de la NASA para explorar fotografías y videos, y un modelo 3D completamente interactivo del sistema solar desarrollado con Three.js. Los usuarios pueden navegar por distintos cuerpos celestes, verlos de cerca y acceder a información relevante, haciendo que la experiencia sea educativa y visualmente atractiva.",
       "technologies": [
         "React.JS",
@@ -157,7 +165,28 @@
         "Tailwind CSS"
       ],
       "image": "assets/projects/ExploreTheUniverse.webp",
-      "repo": "https://github.com/MedvedGubach/explore-the-universe"
+      "tag": "MVP",
+      "repo": "https://github.com/MedvedGubach/explore-the-universe",
+      "deploy": ""
+    },
+    {
+      "title": "Tableros Kanban App - Desplegado",
+      "description": "Una aplicación full stack de tablero Kanban que permite a los usuarios registrarse, autenticarse mediante inicio de sesión seguro con JWT y gestionar tareas eficientemente. Los usuarios pueden crear múltiples tableros y agregar tareas con actualizaciones de estado dinámicas mediante la función de arrastrar y soltar. Las tareas se pueden mover entre las columnas Pendiente, En progreso y Completado, lo que refleja visualmente su progreso. Cada tarea también puede incluir múltiples subtareas, mostradas en formato de post-it para facilitar el seguimiento y la organización.",
+      "technologies": [
+        "React.JS",
+        "TypeScript",
+        "Express.JS",
+        "GraphQL",
+        "Node.JS",
+        "MongoDB",
+        "JSON Web Token",
+        "Headless UI",
+        "Tailwind CSS"
+      ],
+      "image": "assets/projects/KanbanBoard.webp",
+      "tag": "MVP",
+      "repo": "https://github.com/MedvedGubach/kanban-board",
+      "deploy": "https://kanban-board-three-navy.vercel.app"
     },
     {
       "title": "Sistema de Tickets",
@@ -168,29 +197,16 @@
         "Express.JS",
         "Sequelize",
         "Node.JS",
-        "mySQL",
+        "SQL",
         "NodeMailer",
         "Multer",
         "MUI",
         "Bootstrap"
       ],
       "image": "assets/projects/TicketSystemReport.webp",
-      "repo": "https://github.com/MedvedGubach/clon-gestion"
-    },
-    {
-      "title": "Herramienta de Gestión de Proyectos (En construcción)",
-      "description": "Aplicación de gestión de proyectos que permite a los usuarios crear tablones de actividades organizados por tareas. Cada tarea incluye una descripción detallada de lo que se debe realizar, niveles de prioridad y una casilla de verificación para marcar su finalización. El sistema está diseñado para facilitar la gestión visual del trabajo y el seguimiento del progreso de manera sencilla e intuitiva. Actualmente se encuentra en fase de desarrollo activo.",
-      "technologies": [
-        "React.JS",
-        "JavaScript",
-        "Express.JS",
-        "Node.JS",
-        "MongoDB",
-        "MUI",
-        "Tailwind CSS"
-      ],
-      "image": "assets/projects/ProjectMngmtTool.webp",
-      "repo": "https://github.com/MedvedGubach/project-mngmt-tool"
+      "tag": "Finished",
+      "repo": "https://github.com/MedvedGubach/clon-gestion",
+      "deploy": ""
     },
     {
       "title": "Portafolio Web",
@@ -204,7 +220,9 @@
         "Framer"
       ],
       "image": "assets/projects/PortfolioProject.webp",
-      "repo": "https://github.com/MedvedGubach/portfolio-eag"
+      "tag": "Finished",
+      "repo": "https://github.com/MedvedGubach/portfolio-eag",
+      "deploy": ""
     },
     {
       "title": "Cotizador de Criptomonedas",
@@ -215,7 +233,9 @@
         "CSS"
       ],
       "image": "assets/projects/CryptocurrencyApp.webp",
-      "repo": "https://github.com/MedvedGubach/crypto-exchange-rate-app"
+      "tag": "Finished",
+      "repo": "https://github.com/MedvedGubach/crypto-exchange-rate-app",
+      "deploy": ""
     }
   ],
   "contact": {
@@ -233,6 +253,13 @@
     "button-sending": "Enviando...",
     "phone": "+52 33-1041-9236",
     "email": "emmanuel.arana.gutierrez@gmail.com"
+  },
+  "tags": {
+    "Private": "Privado",
+    "MVP": "MVP",
+    "Prototype": "Prototipo",
+    "In Progress": "En progreso",
+    "Finished": "Finalizado"
   },
   "constructon-text": "Más Proximamente..."
 }

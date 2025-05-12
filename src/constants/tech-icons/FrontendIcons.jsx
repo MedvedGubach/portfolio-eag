@@ -11,7 +11,7 @@ export const FrontendIcons = [
         tooltip: "React",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(34,211,238,0.8)]",
         tooltipBg: "bg-cyan-400",
-        tooltipText: "text-white",
+        tooltipText: "text-black",
     },
     {
         icon: FaVuejs,
@@ -20,7 +20,7 @@ export const FrontendIcons = [
         tooltip: "Vue",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(34,197,94,0.8)]",
         tooltipBg: "bg-green-500",
-        tooltipText: "text-white",
+        tooltipText: "text-black",
     },
     {
         icon: SiTypescript,
@@ -38,7 +38,7 @@ export const FrontendIcons = [
         tooltip: "JavaScript",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(253,224,71,0.8)]",
         tooltipBg: "bg-yellow-300",
-        tooltipText: "text-white",
+        tooltipText: "text-black",
     },
     {
         icon: FaHtml5,
@@ -65,6 +65,6 @@ export const FrontendIcons = [
         tooltip: "Tailwind CSS",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(103,232,249,0.8)]",
         tooltipBg: "bg-cyan-300",
-        tooltipText: "text-white",
+        tooltipText: "text-black",
     },
 ];

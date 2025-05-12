@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
-
+import { techStyles } from "../constants/project-tags/tagStyles";
 const Experience = () => {
   const { t, i18n } = useTranslation();
   const experiences = t("experience", { returnObjects: true });
@@ -56,12 +56,12 @@ const Experience = () => {
                     {experience.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {experience.technologies.map((tech, index) => (
-                      <span
-                        key={index}
-                        className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                    {experience.technologies.map((tech) => (
+                      <span key={tech}
+                        className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium ${techStyles[tech]?.color || "bg-neutral-800 text-white"}`}
                       >
-                        {tech}
+                        <span>{techStyles[tech]?.icon || "💻"}</span>
+                        <span>{tech}</span>
                       </span>
                     ))}
                   </div>

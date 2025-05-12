@@ -36,7 +36,7 @@
   "main-title-experience": "Experience",
   "experience": [
     {
-      "year": "2022 - Present",
+      "year": "2022 - 2025 (Professional Rest)",
       "role": "Full Stack Developer",
       "company": "SEMS UDG",
       "description": "By quickly learning the technological stack used in the system and giving good results with the development of my assigned tasks, I was hired as an employee in the company. I continued with my learning to the point of being able to develop fully functional web application modules for the system both on the front end and the back end. These new modules would be successfully integrated and put into use, as well as the automation of system tasks through the use of routines or cron.",
@@ -44,11 +44,14 @@
         "React.JS",
         "JavaScript",
         "Express.JS",
+        "HTML",
+        "CSS",
         "Sequelize",
         "Node.JS",
-        "mySQL",
+        "SQL",
         "MUI",
-        "Bootstrap"
+        "Bootstrap",
+        "Multer"
       ]
     },
     {
@@ -61,7 +64,7 @@
         "JavaScript",
         "HTML",
         "CSS",
-        "mySQL",
+        "SQL",
         "Bootstrap"
       ]
     }
@@ -128,23 +131,28 @@
   "main-title-projects": "Projects",
   "projects": [
     {
-      "title": "Calidad SEMS - (Private project for a statewide high school network)",
+      "title": "Calidad SEMS - (Project for a statewide high school network)",
       "description": "A web application in which we the system administrators, teachers, students, academic and administrative staff of the UDG high school network can perform automated school related tasks. https://calidad.sems.udg.mx/Creditos",
       "technologies": [
         "React.JS",
         "JavaScript",
         "Express.JS",
+        "HTML",
+        "CSS",
         "Sequelize",
         "Node.JS",
-        "mySQL",
+        "SQL",
         "MUI",
-        "Bootstrap"
+        "Bootstrap",
+        "Multer"
       ],
       "image": "assets/projects/Calidad SEMS Credits.webp",
-      "repo": ""
+      "tag": "Private",
+      "repo": "",
+      "deploy": ""
     },
     {
-      "title": "Explore the Universe - Interactive Web Application - MVP",
+      "title": "Explore the Universe - Interactive Web Application",
       "description": "Explore the Universe is an interactive web application powered by NASA APIs that allows users to discover space through real scientific data. It features the Astronomy Picture of the Day with detailed explanations, a search function connected to the NASA Image and Video Library for exploring photos and videos, and a fully interactive 3D model of the solar system built with Three.js. Users can navigate through celestial bodies, view them up close, and access relevant information, making the experience both educational and visually engaging.",
       "technologies": [
         "React.JS",
@@ -157,7 +165,28 @@
         "Tailwind CSS"
       ],
       "image": "assets/projects/ExploreTheUniverse.webp",
-      "repo": "https://github.com/MedvedGubach/explore-the-universe"
+      "tag": "MVP",
+      "repo": "https://github.com/MedvedGubach/explore-the-universe",
+      "deploy": ""
+    },
+    {
+      "title": "Kanban Boards App - Deployed",
+      "description": "A full-stack Kanban board application that allows users to register, authenticate using JWT-secured login, and manage tasks efficiently. Users can create multiple boards and add tasks with dynamic status updates using drag-and-drop functionality. Tasks can be moved between Pending, In Progress, and Complete columns, visually reflecting their progress. Each task can also include multiple subtasks, displayed in a post-it style for easy tracking and organization.",
+      "technologies": [
+        "React.JS",
+        "TypeScript",
+        "Express.JS",
+        "GraphQL",
+        "Node.JS",
+        "MongoDB",
+        "JSON Web Token",
+        "Headless UI",
+        "Tailwind CSS"
+      ],
+      "image": "assets/projects/KanbanBoard.webp",
+      "tag": "MVP",
+      "repo": "https://github.com/MedvedGubach/kanban-board",
+      "deploy": "https://kanban-board-three-navy.vercel.app"
     },
     {
       "title": "Ticket System",
@@ -168,29 +197,16 @@
         "Express.JS",
         "Sequelize",
         "Node.JS",
-        "mySQL",
+        "SQL",
         "NodeMailer",
         "Multer",
         "MUI",
         "Bootstrap"
       ],
       "image": "assets/projects/TicketSystemReport.webp",
-      "repo": "https://github.com/MedvedGubach/clon-gestion"
-    },
-    {
-      "title": "Project Management Tool (Currently Underwork)",
-      "description": "Project management application that allows users to create activity boards organized by task. Each task includes a detailed description of what needs to be done, priority levels, and a checkbox to mark its completion. The system is designed to facilitate visual management of work and tracking progress in a simple and intuitive way. It is currently under active development.",
-      "technologies": [
-        "React.JS",
-        "JavaScript",
-        "Express.JS",
-        "Node.JS",
-        "MongoDB",
-        "MUI",
-        "Tailwind CSS"
-      ],
-      "image": "assets/projects/ProjectMngmtTool.webp",
-      "repo": "https://github.com/MedvedGubach/project-mngmt-tool"
+      "tag": "Finished",
+      "repo": "https://github.com/MedvedGubach/clon-gestion",
+      "deploy": ""
     },
     {
       "title": "Web Portfolio",
@@ -204,7 +220,9 @@
         "Framer"
       ],
       "image": "assets/projects/PortfolioProject.webp",
-      "repo": "https://github.com/MedvedGubach/portfolio-eag"
+      "tag": "Finished",
+      "repo": "https://github.com/MedvedGubach/portfolio-eag",
+      "deploy": ""
     },
     {
       "title": "Cryptocurrency Exchange Rate App",
@@ -215,7 +233,9 @@
         "JavaScript"
       ],
       "image": "assets/projects/CryptocurrencyApp.webp",
-      "repo": "https://github.com/MedvedGubach/crypto-exchange-rate-app"
+      "tag": "Finished",
+      "repo": "https://github.com/MedvedGubach/crypto-exchange-rate-app",
+      "deploy": ""
     }
   ],
   "contact": {
@@ -233,6 +253,13 @@
     "button-sending": "Sending...",
     "phone": "+52 33-1041-9236",
     "email": "emmanuel.arana.gutierrez@gmail.com"
+  },
+  "tags": {
+    "Private": "Private",
+    "MVP": "MVP",
+    "Prototype": "Prototype",
+    "In Progress": "In Progress",
+    "Finished": "Finished"
   },
   "constructon-text": "More Coming Soon..."
 }

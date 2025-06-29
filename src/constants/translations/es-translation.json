@@ -184,7 +184,7 @@
         "Tailwind CSS"
       ],
       "image": "assets/projects/KanbanBoard.webp",
-      "tag": "MVP",
+      "tag": "Finished",
       "repo": "https://github.com/MedvedGubach/kanban-board",
       "deploy": "https://kanban-board-three-navy.vercel.app"
     },

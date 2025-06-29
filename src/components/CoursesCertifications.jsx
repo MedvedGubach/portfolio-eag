@@ -82,8 +82,8 @@ const CoursesCertifications = () => {
                             className="w-full">
                             {isMobile ? (visibleItems[index] && (<img src={course.imagePng} alt={course.title} className="w-full h-auto" />))
                                 : (visibleItems[index] && (
-                                    <object data={course.image} type="application/pdf" className="w-full h-auto">
-                                        <img src={course.imagePng} alt={`${course.title} (Course Image)`} className="w-full h-auto" />
+                                    <object data={course.image} loading="lazy" type="application/pdf" className="w-full h-auto">
+                                        <img src={course.imagePng} loading="lazy" alt={`${course.title} (Course Image)`} className="w-full h-auto" />
                                     </object>
                                 ))}
                         </motion.div>

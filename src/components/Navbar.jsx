@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className={`sticky top-0 z-50 mb-20 py-2 sm:flex-wrap flex sm:flex-row items-center justify-between transition-all duration-500 ease-in-ou
-    ${scrolled ? "backdrop-blur bg-neutral-950/80 shadow-md" : "bg-transparent"}`}>
+    ${scrolled ? "backdrop-blur bg-neutral-950/80 shadow-md rounded-bl-2xl rounded-br-2xl" : "bg-transparent"}`}>
       <div className="flex flex-shrink-0 items-center">
         <img height={40} width={40} className="mx-2 w-10 rounded-xl" src={logo} alt="logo" />
       </div>

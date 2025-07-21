@@ -22,12 +22,12 @@
     }
   ],
   "hero": {
-    "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+    "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With over 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, MongoDB, GraphQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
     "role": "Full Stack Developer"
   },
   "about": {
     "title": "About Me",
-    "text": "I am a full-stack developer with 3 years of experience, passionate about creating efficient, user-centered web applications. I hold a degree in Computer Science Engineering from CUTonalá, where I discovered my interest in programming despite initially focusing on hardware. This shift sparked my fascination with solving problems and designing solutions from scratch.I stand out for my versatility and ability to thrive in collaborative environments, delivering high-quality solutions with modern technologies. Outside of programming, I enjoy gaming 🖥️🎮, metal music 🤘 (I also play electric guitar 🎸), reading, and continuous learning, particularly through platforms like Udemy to stay updated on the latest technologies."
+    "text": "I'm a full-stack web developer with over 3 years of experience building efficient, user-focused applications. I earned my degree in Computer Science Engineering from CUTonalá, where—despite starting out interested in hardware—I quickly found my passion in software development. That shift opened the door to what I enjoy most: solving problems, designing smart solutions, and bringing ideas to life through code. I thrive in collaborative environments and take pride in delivering high-quality, scalable solutions using modern tools like React, Node.js, and SQL. My versatility has allowed me to work across the full stack, from crafting intuitive front-end interfaces to building robust backend systems.Beyond tech, I’m into video games 🎮, metal music 🤘 (I also play electric guitar 🎸), and reading. I'm always learning—often through platforms like Udemy—to stay current with the latest in web development."
   },
   "technologies": {
     "main": "Technologies and Tools",
@@ -39,7 +39,15 @@
       "year": "2022 - 2025 (Professional Rest)",
       "role": "Full Stack Developer",
       "company": "SEMS UDG",
-      "description": "By quickly learning the technological stack used in the system and giving good results with the development of my assigned tasks, I was hired as an employee in the company. I continued with my learning to the point of being able to develop fully functional web application modules for the system both on the front end and the back end. These new modules would be successfully integrated and put into use, as well as the automation of system tasks through the use of routines or cron.",
+      "description": [
+        "Successfully transitioned from trainee to full-time developer after quickly mastering the tech stack and delivering high-quality results.",
+        "Contributed to the development of scalable and production-ready modules for a web platform serving high schools across the state.",
+        "Created dynamic front-end interfaces using React.js, Bootstrap, Material UI, and custom CSS to improve user experience.",
+        "Developed and integrated RESTful APIs using Node.js, Express, and Sequelize for robust backend functionality.",
+        "Automated recurring system processes through cron jobs, improving performance and reducing manual workloads.",
+        "Maintained and deployed updates to Linux-based (Ubuntu) servers via CLI, ensuring stability and uptime.",
+        "Actively collaborated with cross-functional teams to meet project goals and improve platform functionality for both students and academic staff."
+      ],
       "technologies": [
         "React.JS",
         "JavaScript",
@@ -58,7 +66,14 @@
       "year": "2021 - 2022",
       "role": "Social Service Worker",
       "company": "SEMS UDG",
-      "description": "I started my career in this company as a social service provider for part of my university career. I began to integrate by getting to know the project, the way the rest of the engineers worked and learning to use front end technologies that at that time were totally new to me through the development of user interfaces that needed to be integrated into the new system modules.",
+      "description": [
+        "Collaborated with the development team to improve internal tools and streamline platform workflows.",
+        "Built user interface components using React.js, Material UI, and Bootstrap, focusing on usability and consistency.",
+        "Supported front-end integration with backend services by optimizing component structure and styling logic.",
+        "Contributed to the redesign of internal administrative modules, enhancing their functionality and ease of use.",
+        "Worked alongside senior developers, applying best practices and learning advanced frontend techniques in a real-world environment.",
+        "Gained hands-on experience in front-end development, setting the foundation for future full-stack work."
+      ],
       "technologies": [
         "React.JS",
         "JavaScript",
@@ -75,56 +90,56 @@
       "title": "React JS Introduction Course",
       "description": "Basic introduccion course to React.JS issued by Platzi",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-react.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-react_urddid.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-react.webp"
     },
     {
       "title": "Backend course with Node.JS API REST with Express.JS",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-backend-nodejs.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-backend-nodejs_n6pbzb.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-backend-nodejs.webp"
     },
     {
       "title": "TypeScript Foundamentals Course",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-typescript.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-typescript_p31lgg.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-typescript.webp"
     },
     {
       "title": "MySQL and MariaDB Course",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-mysql-mariadb.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-mysql-mariadb_fihnff.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-mysql-mariadb.webp"
     },
     {
-      "title": "Basic JavaScript Course",
+      "title": "Modern JavaScript Course Udemy",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-basico-javascript.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-basico-javascript.webp"
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1753069855/Curso_Javascript_Moderno_Udemy_nk2fqv.pdf",
+      "imagePng": "assets/coursescertifications/mobileView/Curso-Javascript-Moderno-Udemy.webp"
     },
     {
       "title": "Python Course",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-python.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-python_jpnqnh.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-python.webp"
     },
     {
       "title": "Material UI Foundamental Course with React.JS",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-material-ui.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-material-ui_as2dgp.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-material-ui.webp"
     },
     {
       "title": "Bootstrap Course",
       "description": "",
       "type": "technical",
-      "image": "assets/coursescertifications/diploma-bootstrap.pdf",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-bootstrap_zjml9f.pdf",
       "imagePng": "assets/coursescertifications/mobileView/diploma-bootstrap.webp"
     }
   ],

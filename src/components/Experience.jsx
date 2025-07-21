@@ -46,15 +46,20 @@ const Experience = () => {
                   transition={{ duration: 0.5 }}
                   className="w-full max-w-xl lg:w-3/4"
                 >
-                  <h1 className="mb-2 font-semibold">
+                  <h1 className="mb-2 font-extrabold text-white">
                     {experience.role} -
                     <span className="text-sm text-purple-100">
                       {experience.company}
                     </span>
                   </h1>
-                  <p className="mb-4 text-neutral-400">
-                    {experience.description}
-                  </p>
+
+                  {experience.description.map((desc) => (
+                    <p key={desc} className="mb-4 text-gray-200">
+                      -{desc}
+                    </p>
+                  ))}
+
+
                   <div className="flex flex-wrap gap-2">
                     {experience.technologies.map((tech) => (
                       <span key={tech}

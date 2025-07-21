@@ -34,13 +34,7 @@ const About = () => {
       </AnimatePresence>
 
       <div className="flex flex-wrap">
-        <motion.div
-          viewport={{ once: true }}
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2 lg:p-8"
-        >
+        <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center relative">
             <AnimatePresence mode="wait">
               <motion.img
@@ -58,7 +52,7 @@ const About = () => {
               />
             </AnimatePresence>
           </div>
-        </motion.div>
+        </div>
 
         <AnimatePresence mode="wait">
           <motion.div

@@ -49,7 +49,7 @@ const Hero = () => {
                 animate="visible"
                 exit={{ opacity: 0, x: -100 }}
                 transition={{ duration: 0.75 }}
-                className="my-2 max-w-xl py-6 font-light tracking-tighter"
+                className="my-2 max-w-xl py-6 font-light tracking-tighter text-gray-200"
               >
                 {t("hero.content")}
               </motion.p>

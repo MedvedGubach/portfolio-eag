@@ -17,6 +17,10 @@
       "id": "projects"
     },
     {
+      "name": "Customers",
+      "id": "customers"
+    },
+    {
       "name": "Contact",
       "id": "contact"
     }
@@ -230,7 +234,6 @@
         "React.JS",
         "JavaScript",
         "HTML",
-        "CSS",
         "Tailwind CSS",
         "Framer"
       ],
@@ -251,6 +254,24 @@
       "tag": "Finished",
       "repo": "https://github.com/MedvedGubach/crypto-exchange-rate-app",
       "deploy": ""
+    }
+  ],
+  "main-title-customers": "Customers",
+  "sub-title-customers": "People who trusted me to turn their requirements into a strong digital presence",
+  "customers": [
+    {
+      "projectName": "Lecciones Prácticas de Guitarra Landing Page",
+      "description": "Landing page for a guitar teacher to help him to sell his services and connect with new students",
+      "technologies": [
+        "React.JS",
+        "JavaScript",
+        "HTML",
+        "Tailwind CSS",
+        "Framer"
+      ],
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754508631/LPDGThumbnail_ssd8og.webp",
+      "repo": "https://github.com/MedvedGubach/lpdg-site",
+      "deploy": "https://leccionespracticasdeguitarra.vercel.app/"
     }
   ],
   "contact": {

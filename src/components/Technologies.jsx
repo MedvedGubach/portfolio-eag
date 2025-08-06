@@ -15,7 +15,7 @@ const Technologies = () => {
       <section id="technologies">
         <AnimatePresence mode="wait">
           <motion.h1 viewport={{ once: true }} key={i18n.language} whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -80 }} exit={{ opacity: 0, y: -80 }}
-            transition={{ duration: 0.5 }} className="my-16 text-center text-4xl text-white"
+            transition={{ duration: 0.5 }} className="my-16 text-center text-4xl text-white font-bold tracking-tight"
           >
             {t("technologies.main")}
           </motion.h1>

@@ -6,6 +6,7 @@ import Technologies from "./components/Technologies";
 import CoursesCertifications from "./components/CoursesCertifications";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Customers from "./components/Customers";
 import Contact from "./components/Contact";
 import UnderConstruction from "./components/UnderConstruction";
 
@@ -25,6 +26,7 @@ const App = () => {
           <CoursesCertifications />
           <Experience />
           <Projects />
+          <Customers />
           <Contact />
           <UnderConstruction />
         </div>

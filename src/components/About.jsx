@@ -23,7 +23,7 @@ const About = () => {
         <motion.h1
           key={i18n.language}
           viewport={{ once: true }}
-          className="my-20 text-center text-4xl text-white"
+          className="my-20 text-center text-4xl text-white font-bold tracking-tight"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -65,7 +65,7 @@ const About = () => {
             className="w-full lg:w-1/2"
           >
             <div className="flex justify-center lg:justify-start">
-              <p className="my-2 max-w-xl py-6 text-gray-200">{t("about.text")}</p>
+              <p className="my-2 max-w-xl py-6 text-neutral-200">{t("about.text")}</p>
             </div>
           </motion.div>
         </AnimatePresence>

@@ -61,10 +61,10 @@ const Contact = () => {
             key={i18n.language}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: -100 }}
-            exit={{ opacity: 0, y: -100 }}
+            initial={{ opacity: 0, y: -25 }}
+            exit={{ opacity: 0, y: -25 }}
             transition={{ duration: 0.5 }}
-            className="my-10 text-center text-4xl"
+            className="text-white my-10 text-center text-4xl"
           >
             {t("contact.title")}
           </motion.h1>

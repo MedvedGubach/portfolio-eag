@@ -11,7 +11,6 @@ const Projects = () => {
 
     return (
         <Fragment>
-
             <section id="projects" className="border-b border-neutral-900 pb-4">
                 <AnimatePresence mode="wait">
                     <motion.h1
@@ -21,7 +20,7 @@ const Projects = () => {
                         initial={{ opacity: 0, y: -100 }}
                         exit={{ opacity: 0, y: -100 }}
                         transition={{ duration: 0.5 }}
-                        className="my-20 text-center text-4xl">{t("main-title-projects")}
+                        className="text-white font-bold tracking-tight my-20 text-center text-4xl">{t("main-title-projects")}
                     </motion.h1>
                 </AnimatePresence>
                 <div>
@@ -36,8 +35,8 @@ const Projects = () => {
                                 className="w-full lg:w-1/4">
                                 <img className="mb-6 rounded" height={150} width={150} src={project.image} alt={project.title} />
                             </motion.div>
+                            
                             <AnimatePresence mode="wait">
-
                                 <motion.div
                                     key={i18n.language}
                                     viewport={{ once: true }}
@@ -60,14 +59,16 @@ const Projects = () => {
                                                 </a>
                                         }
                                     </div>
-                                    <h1 className="mb-4 font-semibold">
+
+                                    <h1 className="mb-4 font-bold text-white">
                                         {project.title} - {" "}
                                         {project.tag && (
                                             <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold ${tagStyles[project.tag]?.color || "bg-neutral-700 text-white"}`}>
                                                 {t(`tags.${tagMap[project.tag]}`)} {tagStyles[tagMap[project.tag]]?.icon || "📁"}
                                             </span>)}
                                     </h1>
-                                    <p className="mb-4 text-neutral-400">{project.description}</p>
+
+                                    <p className="mb-4 text-neutral-300">{project.description}</p>
                                     <div className="flex flex-wrap gap-2">
                                         {project.technologies.map((tech) => (
                                             <span key={tech}

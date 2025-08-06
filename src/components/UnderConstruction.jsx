@@ -42,7 +42,7 @@ const Illustration = () => {
           initial={{ opacity: 0, y: -100 }}
           exit={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
-          className="my-10 text-center text-4xl"
+          className="text-white font-bold tracking-tight my-10 text-center text-4xl"
         >
           {t("constructon-text")}
         </motion.h1>

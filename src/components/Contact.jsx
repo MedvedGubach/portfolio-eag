@@ -64,7 +64,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: -25 }}
             exit={{ opacity: 0, y: -25 }}
             transition={{ duration: 0.5 }}
-            className="text-white my-10 text-center text-4xl"
+            className="text-white my-10 text-center text-4xl font-bold tracking-tight"
           >
             {t("contact.title")}
           </motion.h1>

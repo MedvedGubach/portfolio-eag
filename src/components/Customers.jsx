@@ -102,8 +102,9 @@ const Customers = () => {
                                 {project.deploy && (
                                     <a
                                         href={project.deploy}
+                                        aria-label="Link to Website"
                                         target="_blank"
-                                        rel="noopener noreferrer"
+                                        rel="noopener"
                                     >
                                         <FaLink className="text-white hover:text-gray-300 hover:scale-125 text-4xl transition-all duration-300"></FaLink>
 

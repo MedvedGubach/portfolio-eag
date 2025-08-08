@@ -264,13 +264,14 @@
       "description": "Landing page for a guitar teacher to help him to sell his services and connect with new students",
       "technologies": [
         "React.JS",
-        "JavaScript",
+        "Next.JS",
+        "TypeScript",
         "HTML",
         "Tailwind CSS",
         "Framer"
       ],
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754508631/LPDGThumbnail_ssd8og.webp",
-      "repo": "https://github.com/MedvedGubach/lpdg-site",
+      "repo": "https://github.com/MedvedGubach/lpdg-landing",
       "deploy": "https://leccionespracticasdeguitarra.vercel.app/"
     }
   ],

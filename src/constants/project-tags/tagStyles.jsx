@@ -1,5 +1,7 @@
-import {SiReact, SiTypescript, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiMysql, SiGraphql, SiTailwindcss,
-    SiMui, SiBootstrap, SiThreedotjs, SiHeadlessui, SiGmail, SiMongodb, SiFramer, SiFiles, SiJsonwebtokens} from "react-icons/si";
+import {
+    SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiMysql, SiGraphql, SiTailwindcss,
+    SiMui, SiBootstrap, SiThreedotjs, SiHeadlessui, SiGmail, SiMongodb, SiFramer, SiFiles, SiJsonwebtokens
+} from "react-icons/si";
 
 export const tagStyles = {
     Private: { color: "bg-red-700 text-white", icon: "🔒" },
@@ -24,6 +26,7 @@ export const tagMap = {
 
 export const techStyles = {
     "React.JS": { icon: <SiReact />, color: "text-cyan-400 bg-cyan-900" },
+    "Next.JS": { icon: <SiNextdotjs />, color: "text-gray-400 bg-gray-700" },
     "TypeScript": { icon: <SiTypescript />, color: "text-blue-500 bg-blue-900" },
     "JavaScript": { icon: <SiJavascript />, color: "text-yellow-400 bg-yellow-800" },
     "Node.JS": { icon: <SiNodedotjs />, color: "text-green-500 bg-green-900" },

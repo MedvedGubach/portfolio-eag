@@ -256,8 +256,6 @@
       "deploy": ""
     }
   ],
-
-
   "main-title-customers": "Clientes",
   "sub-title-customers": "Personas que confiaron en mí para convertir sus necesidades en una fuerte presencia digital",
   "customers": [
@@ -266,14 +264,15 @@
       "description": "Landing page para un profesor de guitarra para ayudarlo a vender sus servicios y conectar con nuevos alumnos",
       "technologies": [
         "React.JS",
-        "JavaScript",
+        "Next.JS",
+        "TypeScript",
         "HTML",
         "Tailwind CSS",
         "Framer"
       ],
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754508631/LPDGThumbnail_ssd8og.webp",
-      "repo": "https://github.com/MedvedGubach/lpdg-site",
-      "deploy":"https://leccionespracticasdeguitarra.vercel.app/"
+      "repo": "https://github.com/MedvedGubach/lpdg-landing",
+      "deploy": "https://leccionespracticasdeguitarra.vercel.app/"
     }
   ],
   "contact": {

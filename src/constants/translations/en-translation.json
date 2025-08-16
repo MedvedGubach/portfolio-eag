@@ -13,12 +13,12 @@
       "id": "experience"
     },
     {
-      "name": "Projects",
-      "id": "projects"
-    },
-    {
       "name": "Customers",
       "id": "customers"
+    },
+    {
+      "name": "Projects",
+      "id": "projects"
     },
     {
       "name": "Contact",
@@ -26,12 +26,12 @@
     }
   ],
   "hero": {
-    "content": "I am a passionate full stack developer with a knack for creating robust, intuitive and user-friendly web applications. With over 3 years of practical experience and a bachelor's degree in Computer Science Engineering, I have honed my skills using the SERN technology stack; Sequelize, Express.JS, React.JS and Node.JS as well as other technologies related to web development such as: Bootstrap, mySQL, MongoDB, GraphQL, TypeScript, Material-UI and Tailwind CSS. My goal is to leverage my experience to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+    "content": "I am a passionate Full Stack Developer with 3+ years of experience building robust, scalable, and user-friendly web applications. With a Bachelor's degree in Computer Science Engineering, I specialize in the SERN stack (SQL, Express.js, React.js, Node.js) and complementary tools such as SQL, TypeScript, GraphQL, MongoDB, Material-UI, Tailwind CSS, and Bootstrap. My goal is to leverage technology to solve problems, deliver high-quality solutions, and create exceptional user experiences that drive business growth.",
     "role": "Full Stack Developer"
   },
   "about": {
     "title": "About Me",
-    "text": "I'm a full-stack web developer with over 3 years of experience building efficient, user-focused applications. I earned my degree in Computer Science Engineering from CUTonalá, where—despite starting out interested in hardware—I quickly found my passion in software development. That shift opened the door to what I enjoy most: solving problems, designing smart solutions, and bringing ideas to life through code. I thrive in collaborative environments and take pride in delivering high-quality, scalable solutions using modern tools like React, Node.js, and SQL. My versatility has allowed me to work across the full stack, from crafting intuitive front-end interfaces to building robust backend systems.Beyond tech, I’m into video games 🎮, metal music 🤘 (I also play electric guitar 🎸), and reading. I'm always learning—often through platforms like Udemy—to stay current with the latest in web development."
+    "text": "I'm a Full Stack Developer with over 3 years of experience building efficient, user-focused applications. I hold a degree in Computer Science Engineering from CUTonalá, where I discovered my passion for software development. Since then, I’ve specialized in designing smart solutions, solving problems through code, and delivering production-ready features using modern tools like React, Node.js, and SQL. I enjoy collaborating in team environments and take pride in creating scalable, high-quality applications. Beyond tech, I’m into video games 🎮, metal music 🤘 (I also play electric guitar 🎸), and reading. I’m constantly learning—often through platforms like Udemy—to stay up to date with the latest in web development."
   },
   "technologies": {
     "main": "Technologies and Tools",
@@ -40,17 +40,19 @@
   "main-title-experience": "Experience",
   "experience": [
     {
-      "year": "2022 - 2025 (Professional Rest)",
+      "year": "2022 - 2025",
       "role": "Full Stack Developer",
       "company": "SEMS UDG",
       "description": [
-        "Successfully transitioned from trainee to full-time developer after quickly mastering the tech stack and delivering high-quality results.",
-        "Contributed to the development of scalable and production-ready modules for a web platform serving high schools across the state.",
+        "Successfully transitioned from trainee to full-time developer after quickly mastering the tech stack and delivering high-quality results and production ready features.",
+        "Built and maintained a statewide academic management platform serving tens of thousands of students and staff",
+        "Improved app stability and maintainability by refactoring legacy frontend and backend codebase",
         "Created dynamic front-end interfaces using React.js, Bootstrap, Material UI, and custom CSS to improve user experience.",
-        "Developed and integrated RESTful APIs using Node.js, Express, and Sequelize for robust backend functionality.",
-        "Automated recurring system processes through cron jobs, improving performance and reducing manual workloads.",
-        "Maintained and deployed updates to Linux-based (Ubuntu) servers via CLI, ensuring stability and uptime.",
-        "Actively collaborated with cross-functional teams to meet project goals and improve platform functionality for both students and academic staff."
+        "Developed and integrated RESTful APIs with Node.js, Express, and Sequelize, ensuring reliable data access and performance.",
+        "Automated recurring system processes through cron jobs, improving performance and reducing manual workloads for staff.",
+        "Deployed and maintained updates on Linux (Ubuntu) servers via CLI, ensuring platform uptime.",
+        "Actively collaborated with cross-functional teams to meet project goals and improve platform functionality for both students and academic staff.",
+        "Provided technical support and training to non-technical stakeholders"
       ],
       "technologies": [
         "React.JS",
@@ -228,21 +230,6 @@
       "deploy": ""
     },
     {
-      "title": "Web Portfolio",
-      "description": "A personal portfolio website showing projects, a brief introduction of my skills, work experience and contact information.",
-      "technologies": [
-        "React.JS",
-        "JavaScript",
-        "HTML",
-        "Tailwind CSS",
-        "Framer"
-      ],
-      "image": "assets/projects/PortfolioProject.webp",
-      "tag": "Finished",
-      "repo": "https://github.com/MedvedGubach/portfolio-eag",
-      "deploy": ""
-    },
-    {
       "title": "Cryptocurrency Exchange Rate App",
       "description": "Application to calculate the exchange rate of currencies to cryptocurrencies to practice what I've learned in a javascript course.",
       "technologies": [
@@ -268,7 +255,8 @@
         "TypeScript",
         "HTML",
         "Tailwind CSS",
-        "Framer"
+        "Framer",
+        "SEO Optimization"
       ],
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754508631/LPDGThumbnail_ssd8og.webp",
       "repo": "https://github.com/MedvedGubach/lpdg-landing",

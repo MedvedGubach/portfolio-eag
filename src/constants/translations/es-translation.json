@@ -13,12 +13,12 @@
       "id": "experience"
     },
     {
-      "name": "Proyectos",
-      "id": "projects"
-    },
-    {
       "name": "Clientes",
       "id": "customers"
+    },
+    {
+      "name": "Proyectos",
+      "id": "projects"
     },
     {
       "name": "Contacto",
@@ -26,12 +26,12 @@
     }
   ],
   "hero": {
-    "content": "Soy un apasionado desarrollador full stack con una habilidad especial para crear aplicaciones web robustas, intuitivas y amigables con el usuario. Con más 3 años de experiencia práctica y una licenciatura en Ingeniería en Ciencias Computacionales, he perfeccionado mis habilidades utilizando el stack tecnológico SERN; Sequelize, Express.JS, React.JS y Node.JS así como otras tecnologías relacionadas al desarrollo web cómo: Bootstrap, mySQL, MongoDB, GraphQL, TypeScript, Material-UI y Tailwind CSS. Mi objetivo es aprovechar mi experiencia para crear soluciones innovadoras que impulsen el crecimiento empresarial y ofrezcan experiencias de usuario excepcionales.",
+    "content": "Soy un Desarrollador Full Stack con más de 3 años de experiencia creando aplicaciones web robustas, escalables e intuitivas. Cuento con una Licenciatura en Ingeniería en Computación y me especializo en el stack SERN (SQL, Express.js, React.js, Node.js), además de tecnologías complementarias como SQL, TypeScript, GraphQL, MongoDB, Material-UI, Tailwind CSS y Bootstrap. Mi objetivo es aprovechar la tecnología para resolver problemas, entregar soluciones de alta calidad y crear experiencias de usuario excepcionales que impulsen el crecimiento del negocio.",
     "role": "Desarrollador Full Stack"
   },
   "about": {
     "title": "Acerca de Mí",
-    "text": "Soy desarrollador web full stack con más de 3 años de experiencia creando aplicaciones eficientes y centradas en el usuario. Me gradué como Ingeniero en Computación en CUTonalá, donde aunque al principio me interesaba más el hardware, pronto descubrí mi verdadera pasión en el desarrollo de software. Ese cambio despertó en mí un gusto por resolver problemas y diseñar soluciones desde cero. Me destaco por mi versatilidad y por disfrutar el trabajo en equipo, entregando soluciones de calidad con tecnologías modernas como React, Node.js y SQL. He trabajado en todo el stack, desde el diseño de interfaces intuitivas hasta el desarrollo de sistemas backend robustos. Fuera del código, disfruto de los videojuegos 🎮, la música metal 🤘 (también toco la guitarra eléctrica 🎸) y la lectura. Siempre estoy aprendiendo, especialmente a través de plataformas como Udemy, para mantenerme actualizado con las últimas tendencias del desarrollo web."
+    "text": "Soy Desarrollador Full Stack con más de 3 años de experiencia creando aplicaciones eficientes y centradas en el usuario. Me gradué en Ingeniería en Computación en CUTonalá, donde descubrí mi pasión por el desarrollo de software. Desde entonces, me he especializado en diseñar soluciones inteligentes, resolver problemas mediante código y entregar funcionalidades listas para producción con tecnologías modernas como React, Node.js y SQL. Disfruto colaborar en entornos de equipo y me enorgullece construir aplicaciones escalables y de alta calidad. Fuera del ámbito tecnológico, me apasionan los videojuegos 🎮, la música metal 🤘 (también toco guitarra eléctrica 🎸) y la lectura. Me mantengo en constante aprendizaje, especialmente a través de plataformas como Udemy, para estar al día con las últimas tendencias del desarrollo web."
   },
   "technologies": {
     "main": "Tecnologías y Herramientas",
@@ -40,17 +40,19 @@
   "main-title-experience": "Experiencia",
   "experience": [
     {
-      "year": "2022 - 2025 (Descanso Profesional)",
+      "year": "2022 - 2025",
       "role": "Desarrollador Full Stack",
       "company": "SEMS UDG",
       "description": [
-        "Pasé de ser trainee a desarrollador de planta tras dominar rápidamente el stack tecnológico y entregar resultados de calidad.",
-        "Desarrollé módulos escalables y listos para producción en una plataforma web utilizada por preparatorias a nivel estatal.",
-        "Construí interfaces de usuario dinámicas con React.js, Bootstrap, Material UI y CSS personalizado para mejorar la experiencia del usuario.",
-        "Implementé APIs RESTful con Node.js, Express y Sequelize para una integración backend sólida y mantenible.",
-        "Automatizé procesos recurrentes del sistema mediante cron jobs, optimizando el rendimiento y reduciendo tareas manuales.",
-        "Administré servidores Linux (Ubuntu) desde línea de comandos para asegurar despliegues estables y sin interrupciones.",
-        "Colaboré estrechamente con distintos equipos para alcanzar objetivos técnicos y mejorar la plataforma para estudiantes y personal académico."
+        "Transicioné de trainee a desarrollador de planta tras dominar rápidamente el stack tecnológico y entregar funcionalidades listas para producción.",
+        "Desarrollé y mantuve una plataforma de gestión académica utilizada a nivel estatal por decenas de miles de estudiantes y personal.",
+        "Mejoré la estabilidad y mantenibilidad del sistema mediante la refactorización de código legacy en frontend y backend.",
+        "Diseñé e implementé interfaces dinámicas con React.js, MUI, Bootstrap y CSS personalizado, optimizando la experiencia de usuario.",
+        "Desarrollé e integré APIs RESTful con Node.js, Express y Sequelize, garantizando un acceso a datos confiable y de alto rendimiento.",
+        "Automaticé procesos recurrentes del sistema a través de cron jobs, mejorando el rendimiento y reduciendo las cargas de trabajo manuales para el personal..",
+        "Desplegué y administré actualizaciones en servidores Linux (Ubuntu) a través de CLI, asegurando la estabilidad y el uptime de la plataforma.",
+        "Colaboré activamente con equipos interdisciplinarios para alcanzar los objetivos del proyecto y mejorar la funcionalidad de la plataforma tanto para estudiantes como para personal académico.",
+        "Brindé soporte técnico y capacitación a stakeholders no técnicos."
       ],
       "technologies": [
         "React.JS",
@@ -228,21 +230,6 @@
       "deploy": ""
     },
     {
-      "title": "Portafolio Web",
-      "description": "Un sitio web de portafolio personal que muestra proyectos, una introducción breve de mis habilidades, experiencia laboral e información de contacto.",
-      "technologies": [
-        "React.JS",
-        "JavaScript",
-        "HTML",
-        "Tailwind CSS",
-        "Framer"
-      ],
-      "image": "assets/projects/PortfolioProject.webp",
-      "tag": "Finished",
-      "repo": "https://github.com/MedvedGubach/portfolio-eag",
-      "deploy": ""
-    },
-    {
       "title": "Cotizador de Criptomonedas",
       "description": "Aplicación para calcular el tipo de cambio de divisas a criptomonedas hecho practicar lo aprendido en un curso de javascript.",
       "technologies": [
@@ -268,7 +255,8 @@
         "TypeScript",
         "HTML",
         "Tailwind CSS",
-        "Framer"
+        "Framer",
+        "SEO Optimization"
       ],
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754508631/LPDGThumbnail_ssd8og.webp",
       "repo": "https://github.com/MedvedGubach/lpdg-landing",

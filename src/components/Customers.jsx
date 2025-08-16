@@ -13,6 +13,7 @@ const Customers = () => {
                 <motion.h1
                     className="text-white py-6 text-center text-4xl font-bold tracking-tight"
                     key={i18n.language}
+                    viewport={{ once: true }}
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: -25 }}
                     exit={{ opacity: 0, y: -25 }}
@@ -26,6 +27,7 @@ const Customers = () => {
                 <motion.p
                     className="text-center text-neutral-300 max-w-3xl mx-auto"
                     key={i18n.language}
+                    viewport={{ once: true }}
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: -25 }}
                     exit={{ opacity: 0, y: -25 }}
@@ -34,7 +36,7 @@ const Customers = () => {
                     {t("sub-title-customers")}
                 </motion.p>
             </AnimatePresence>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-12">
                 {customers.map((project, index) => (
                     <motion.div

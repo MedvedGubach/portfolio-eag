@@ -2,6 +2,7 @@ import {
     SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiMysql, SiGraphql, SiTailwindcss,
     SiMui, SiBootstrap, SiThreedotjs, SiHeadlessui, SiGmail, SiMongodb, SiFramer, SiFiles, SiJsonwebtokens
 } from "react-icons/si";
+import { RiSeoLine } from "react-icons/ri";
 
 export const tagStyles = {
     Private: { color: "bg-red-700 text-white", icon: "🔒" },
@@ -27,9 +28,9 @@ export const tagMap = {
 export const techStyles = {
     "React.JS": { icon: <SiReact />, color: "text-cyan-400 bg-cyan-900" },
     "Next.JS": { icon: <SiNextdotjs />, color: "text-gray-400 bg-gray-700" },
-    "TypeScript": { icon: <SiTypescript />, color: "text-blue-500 bg-blue-900" },
+    "TypeScript": { icon: <SiTypescript />, color: "text-blue-400 bg-blue-900" },
     "JavaScript": { icon: <SiJavascript />, color: "text-yellow-400 bg-yellow-800" },
-    "Node.JS": { icon: <SiNodedotjs />, color: "text-green-500 bg-green-900" },
+    "Node.JS": { icon: <SiNodedotjs />, color: "text-green-400 bg-green-900" },
     "Express.JS": { icon: <SiExpress />, color: "text-gray-300 bg-gray-800" },
     "Sequelize": { icon: <SiSequelize />, color: "text-blue-300 bg-blue-900" },
     "SQL": { icon: <SiMysql />, color: "text-blue-300 bg-blue-900" },
@@ -46,5 +47,6 @@ export const techStyles = {
     "MongoDB": { icon: <SiMongodb />, color: "text-emerald-400 bg-emerald-900" },
     "Multer": { icon: <SiFiles />, color: "text-cyan-400 bg-cyan-900" },
     "JSON Web Token": { icon: <SiJsonwebtokens />, color: "text-purple-400 bg-purple-900" },
+    "SEO Optimization": { icon: <RiSeoLine />, color: "text-emerald-300 bg-emerald-900" },
 
 };

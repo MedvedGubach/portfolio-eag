@@ -11,13 +11,13 @@ const Experience = () => {
       <section id="experience" className="border-b  border-neutral-900 pb-4">
         <AnimatePresence mode="wait">
           <motion.h1
+            className="text-white font-bold tracking-tight my-20 text-center text-4xl"
             key={i18n.language}
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -100 }}
             exit={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5 }}
-            className="text-white font-bold tracking-tight my-20 text-center text-4xl"
           >
             {t("main-title-experience")}
           </motion.h1>

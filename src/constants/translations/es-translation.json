@@ -256,7 +256,9 @@
         "HTML",
         "Tailwind CSS",
         "Framer",
-        "SEO Optimization"
+        "SEO Optimization",
+        "Vitest",
+        "React Testing Library"
       ],
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1754508631/LPDGThumbnail_ssd8og.webp",
       "repo": "https://github.com/MedvedGubach/lpdg-landing",

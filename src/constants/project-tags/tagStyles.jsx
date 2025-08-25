@@ -1,6 +1,8 @@
 import {
     SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiNodedotjs, SiExpress, SiSequelize, SiMysql, SiGraphql, SiTailwindcss,
-    SiMui, SiBootstrap, SiThreedotjs, SiHeadlessui, SiGmail, SiMongodb, SiFramer, SiFiles, SiJsonwebtokens
+    SiMui, SiBootstrap, SiThreedotjs, SiHeadlessui, SiGmail, SiMongodb, SiFramer, SiFiles, SiJsonwebtokens, SiVitest, SiTestinglibrary,
+    SiHtml5,
+    SiCss3
 } from "react-icons/si";
 import { RiSeoLine } from "react-icons/ri";
 
@@ -35,8 +37,8 @@ export const techStyles = {
     "Sequelize": { icon: <SiSequelize />, color: "text-blue-300 bg-blue-900" },
     "SQL": { icon: <SiMysql />, color: "text-blue-300 bg-blue-900" },
     "GraphQL": { icon: <SiGraphql />, color: "text-pink-400 bg-pink-900" },
-    "HTML": { icon: <SiGraphql />, color: "text-orange-400 bg-orange-900" },
-    "CSS": { icon: <SiGraphql />, color: "text-blue-400 bg-blue-900" },
+    "HTML": { icon: <SiHtml5 />, color: "text-orange-400 bg-orange-900" },
+    "CSS": { icon: <SiCss3 />, color: "text-blue-400 bg-blue-900" },
     "Tailwind CSS": { icon: <SiTailwindcss />, color: "text-sky-300 bg-sky-900" },
     "MUI": { icon: <SiMui />, color: "text-indigo-300 bg-indigo-900" },
     "Bootstrap": { icon: <SiBootstrap />, color: "text-purple-300 bg-purple-900" },
@@ -48,5 +50,8 @@ export const techStyles = {
     "Multer": { icon: <SiFiles />, color: "text-cyan-400 bg-cyan-900" },
     "JSON Web Token": { icon: <SiJsonwebtokens />, color: "text-purple-400 bg-purple-900" },
     "SEO Optimization": { icon: <RiSeoLine />, color: "text-emerald-300 bg-emerald-900" },
+    "Vitest": { icon: <SiVitest />, color: "text-black bg-gradient-to-r from-yellow-400 to-lime-400" },
+    "React Testing Library": { icon: <SiTestinglibrary />, color: "text-red-300 bg-red-700" },
 
 };
+

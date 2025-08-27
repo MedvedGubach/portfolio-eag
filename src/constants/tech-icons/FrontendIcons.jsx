@@ -1,6 +1,6 @@
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaHtml5, FaCss3Alt, FaVuejs } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaVuejs, FaBootstrap } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
 export const FrontendIcons = [
@@ -66,5 +66,14 @@ export const FrontendIcons = [
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(103,232,249,0.8)]",
         tooltipBg: "bg-cyan-300",
         tooltipText: "text-black",
+    },
+    {
+        icon: FaBootstrap,
+        color: "text-purple-600",
+        variants: 3,
+        tooltip: "Bootstrap",
+        hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(116,17,246,0.8)]",
+        tooltipBg: "bg-purple-600",
+        tooltipText: "text-white",
     },
 ];

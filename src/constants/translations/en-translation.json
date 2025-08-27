@@ -35,7 +35,9 @@
   },
   "technologies": {
     "main": "Technologies and Tools",
-    "tools": "Tools"
+    "tools": "Tools",
+    "familiar": "Familiar With",
+    "learning": "Currently Learning"
   },
   "main-title-experience": "Experience",
   "experience": [

@@ -95,67 +95,81 @@
   "main-title-courses-certifications": "Courses and Certifications",
   "courses-certifications": [
     {
-      "title": "React JS Introduction Course",
-      "description": "Basic introduccion course to React.JS issued by Platzi",
+      "title": "React JS Course From Beginner to Expert",
+      "description": "React: From Beginner to Expert - 2025 Edition",
       "type": "technical",
-      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-react_urddid.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-react.webp"
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1763862922/UdemyReact_Certification_lq8xad.pdf",
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495910/UdemyReact-Certification_e9t6qj.webp"
+    },
+    {
+      "title": "Angular Course From Beginner to Expert",
+      "description": "React: From Beginner to Expert - 2025 Edition",
+      "type": "technical",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767384366/UdemyAngularCertification_go5eld.pdf",
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767384131/UdemyAngularCertification_dpkroj.webp"
     },
     {
       "title": "Backend course with Node.JS API REST with Express.JS",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-backend-nodejs_n6pbzb.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-backend-nodejs.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495787/diploma-backend-nodejs_dwrnly.webp"
     },
     {
       "title": "TypeScript Foundamentals Course",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-typescript_p31lgg.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-typescript.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495789/diploma-typescript_z1zalt.webp"
     },
     {
       "title": "MySQL and MariaDB Course",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-mysql-mariadb_fihnff.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-mysql-mariadb.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495787/diploma-mysql-mariadb_yszggs.webp"
     },
     {
       "title": "Modern JavaScript Course Udemy",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1753069855/Curso_Javascript_Moderno_Udemy_nk2fqv.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/Curso-Javascript-Moderno-Udemy.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495786/Curso-Javascript-Moderno-Udemy_uvygi9.webp"
     },
     {
       "title": "Python Course",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-python_jpnqnh.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-python.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495787/diploma-python_q4mqg7.webp"
     },
     {
       "title": "Material UI Foundamental Course with React.JS",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-material-ui_as2dgp.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-material-ui.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495787/diploma-material-ui_zt17vz.webp"
+    },
+    {
+      "title": "Introduction Course to React.JS",
+      "description": "",
+      "type": "technical",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607941/diploma-react_urddid.pdf",
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495788/diploma-react_md60zc.webp"
     },
     {
       "title": "Bootstrap Course",
       "description": "",
       "type": "technical",
       "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1751607940/diploma-bootstrap_zjml9f.pdf",
-      "imagePng": "assets/coursescertifications/mobileView/diploma-bootstrap.webp"
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767495787/diploma-bootstrap_hhwkgb.webp"
     }
   ],
   "main-title-projects": "Projects",
   "projects": [
     {
       "title": "Calidad SEMS - (Project for a statewide high school network)",
-      "description": "A web application in which we the system administrators, teachers, students, academic and administrative staff of the UDG high school network can perform automated school related tasks. https://calidad.sems.udg.mx/Creditos",
+      "description": "A web application in which we the system administrators, teachers, students, academic and administrative staff of the UDG high school network can perform automated school related tasks.",
       "technologies": [
         "React.JS",
         "JavaScript",

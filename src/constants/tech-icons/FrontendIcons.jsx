@@ -13,15 +13,7 @@ export const FrontendIcons = [
         tooltipBg: "bg-cyan-400",
         tooltipText: "text-black",
     },
-    {
-        icon: FaVuejs,
-        color: "text-green-500",
-        variants: 3,
-        tooltip: "Vue",
-        hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(34,197,94,0.8)]",
-        tooltipBg: "bg-green-500",
-        tooltipText: "text-black",
-    },
+
     {
         icon: SiTypescript,
         color: "text-blue-500",

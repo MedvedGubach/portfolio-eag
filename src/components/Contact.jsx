@@ -70,7 +70,7 @@ const Contact = () => {
           </motion.h1>
         </AnimatePresence>
 
-        <div className="w-full max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 rounded-xl shadow-lg ring">
+        <div className="w-full max-w-6xl mx-auto px-4 mb-12 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 rounded-xl shadow-lg ring">
           <div className="flex flex-col justify-between">
             <div className="mt-10 space-y-6 text-gray-700">
               <div className="flex items-start gap-3 text-white">
@@ -110,7 +110,7 @@ const Contact = () => {
               type="submit"
               whileTap={{ scale: 0.95 }}
               disabled={loading}
-              className={`w-full flex items-center justify-center gap-2 bg-indigo-700 text-white font-semibold py-2 px-4 rounded-md transition duration-300 
+              className={`w-full flex items-center justify-center gap-2 bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:scale-110 hover:bg-indigo-700 transition duration-300 
                 ${loading ? "opacity-70 cursor-not-allowed" : "hover:bg-indigo-800"}`}
             >
               {loading ? (

@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Customers from "./components/Customers";
 import Contact from "./components/Contact";
-import UnderConstruction from "./components/UnderConstruction";
+// import UnderConstruction from "./components/UnderConstruction";
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const App = () => {
           <Customers />
           <Projects />
           <Contact />
-          <UnderConstruction />
+          {/* <UnderConstruction /> */}
         </div>
       </div>
     </div>

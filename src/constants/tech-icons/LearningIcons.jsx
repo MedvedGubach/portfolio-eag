@@ -1,5 +1,4 @@
 import { SiDotnet, SiNextdotjs } from "react-icons/si";
-import { FaAngular } from "react-icons/fa";
 
 export const LearningIcons = [
     {
@@ -11,15 +10,7 @@ export const LearningIcons = [
         tooltipBg: "bg-purple-600",
         tooltipText: "text-white",
     },
-    {
-        icon: FaAngular,
-        color: "text-red-700",
-        variants: 3.5,
-        tooltip: "Angular",
-        hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(221,0,44,0.8)]",
-        tooltipBg: "bg-red-700",
-        tooltipText: "text-white",
-    },
+
 
     {
         icon: SiNextdotjs,

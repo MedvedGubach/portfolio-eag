@@ -105,8 +105,15 @@
       "title": "Curso Angular de Cero a Experto",
       "description": "Curso Angular de Cero a Experton",
       "type": "technical",
-      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767381341/UdemyAngularCertification_jzup80.pdfpg",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767384366/UdemyAngularCertification_go5eld.pdf",
       "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767384131/UdemyAngularCertification_dpkroj.webp"
+    },
+    {
+      "title": "Docker - Guía práctica de uso para desarrolladores",
+      "description": "Curso de Docker para desarrolladores",
+      "type": "technical",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1769910917/UdemyDockerCoursePDF_zxryjh.pdf",
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1769910907/UdemyDockerCourseWEBP_fa1z4w.webp"
     },
     {
       "title": "Curso de Backend con Node.JS: API REST con Express.JS",

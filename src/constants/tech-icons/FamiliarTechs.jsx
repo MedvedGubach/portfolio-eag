@@ -1,4 +1,4 @@
-import { FaAws, FaAngular, FaVuejs } from "react-icons/fa";
+import { FaAws, FaAngular, FaVuejs, FaDocker } from "react-icons/fa";
 
 export const FamiliarTechs = [
     {
@@ -17,6 +17,15 @@ export const FamiliarTechs = [
         tooltip: "Angular",
         hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(221,0,44,0.8)]",
         tooltipBg: "bg-red-700",
+        tooltipText: "text-white",
+    },
+    {
+        icon: FaDocker,
+        color: "text-blue-400",
+        variants: 2,
+        tooltip: "Docker",
+        hoverStyles: "hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(29,99,237,0.8)]",
+        tooltipBg: "bg-blue-700",
         tooltipText: "text-white",
     },
     {

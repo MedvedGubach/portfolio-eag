@@ -109,6 +109,13 @@
       "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1767384131/UdemyAngularCertification_dpkroj.webp"
     },
     {
+      "title": "Docker - A Practical Guide for Developers",
+      "description": "Docker course for developers",
+      "type": "technical",
+      "image": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1769910917/UdemyDockerCoursePDF_zxryjh.pdf",
+      "imagePng": "https://res.cloudinary.com/dvqnxq5g5/image/upload/v1769910907/UdemyDockerCourseWEBP_fa1z4w.webp"
+    },
+    {
       "title": "Backend course with Node.JS API REST with Express.JS",
       "description": "",
       "type": "technical",
